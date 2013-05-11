@@ -1,7 +1,7 @@
 Museos de Buenos Aires App
 ====================================
 
-Aplicación destinada a mostrar información de Museos de la Ciudad de Buenos Aires desarrollada durante el [BAHackathon de 2013](https://twitter.com/search?q=%23BAHackathon&src=typd).
+Aplicación para información de Museos de la Ciudad de Buenos Aires desarrollada durante el [BAHackathon de 2013](https://twitter.com/search?q=%23BAHackathon&src=typd).
 
 ![Image from app](http://f.cl.ly/items/1J013f0M0K1p0m0c0n26/Screen%20Shot%202013-05-11%20at%208.16.48%20PM.png)
 
@@ -16,4 +16,4 @@ Equipo:
 - Ignacio Ricci
 - Dan Zajdband
 - Pablo Sanchez
-- Joquin
+- Jaoquin
