@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @museos = Museum.all
+    @museos = Museum.order(:id).all
+    @favoritos = @museos.slice!(0,9)
   end
 end

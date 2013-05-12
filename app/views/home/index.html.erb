@@ -22,37 +22,15 @@
 		<div class="wrap">
 			<h3 class="title">Museos más populares</h3>
 			<ul>
-				<% @museos.each do |museo| %>
-				<li class="museum">
-					<div class="mPic">
-						<%= link_to(museo) do %>
-							<%= photo_tag museo, :thumb %>
-							<span></span>
-							<div class="rating rating-4">
-								<ol>
-									<li class="star star-1"></li>
-									<li class="star star-2"></li>
-									<li class="star star-3"></li>
-									<li class="star star-4"></li>
-									<li class="star star-5"></li>
-								</ol>
-							</div>
-						<% end %>
-					</div>
-					<div class="mInfo">
-						<h3><%= link_to museo.nombre, museo %></h3>
-						<p><em><%= museo.direccion %></em></p>
-						<% if museo.id.even? %>
-						<span class="badge open">Abierto</span>
-						<% else %>
-						<span class="badge closed">Cerrado</span>
-						<% end %>
-					</div>
-				</li>
+				<% @favoritos.each do |museo| %>
+					<%= render 'museum/list_item', museo: museo %>
 				<% end %>
 			</ul>
 			<h3 class="title">Todos los museos</h3>
 			<ul>
+				<% @museos.each do |museo| %>
+					<%= render 'museum/list_item', museo: museo %>
+				<% end %>
 			</ul>
 			<p id="loadMore"><a href="#" class="btn">Mostrar más museos</a></p>
 		</div>
