@@ -1,4 +1,4 @@
-	
+
 	<section id="hero" style="background-image:url(<%= asset_path "examples/malba.jpg" %>);">
 		<div id="heroHolder">
 			<div class="wrap">
@@ -24,7 +24,6 @@
 			<ul>
 				<% @museos.each do |museo| %>
 				<li class="museum">
-					<p><%= museo.id %></p>
 					<div class="mPic">
 						<%= link_to(museo) do %>
 							<%= photo_tag museo, :thumb %>
