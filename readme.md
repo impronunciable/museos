@@ -13,7 +13,7 @@ Tecnologías usadas:
 
 Equipo:
 
-- Ignacio Ricci
-- Dan Zajdband
-- Pablo Sanchez
-- Jaoquin
+- [Ignacio Ricci](http://twitter.com/ignacioricci)
+- [Dan Zajdband](http://twitter.com/dzajdband)
+- [Pablo Sanchez](http://twitter.com/Pablosanchez)
+- [Jaoquin Vicente](http://twitter.com/joaquinvicente)
