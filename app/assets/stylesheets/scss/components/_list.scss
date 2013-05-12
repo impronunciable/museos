@@ -1,0 +1,102 @@
+	
+	.museumList {
+
+		padding:0 10px 40px;
+
+		.title {
+			margin:60px 15px 30px;
+			clear:both;
+		}
+
+		ul {
+
+			overflow:hidden;
+		
+			.museum {
+				
+				float:left;
+				width:300px;
+				margin:0 15px 30px;
+				position:relative;
+
+				.mPic {
+
+					position:relative;
+
+					a {
+
+						display:block;
+					
+						img {
+							display:block;
+							width:100%;
+							height:auto;
+						}
+
+						.rating {
+							position:absolute;
+							z-index:2;
+							right:5px;
+							bottom:10px;
+							@include scale(0.8);
+						}
+
+						span {
+							display:none;
+							position:absolute;
+							top:0;
+							left:0;
+							width:100%;
+							height:100%;
+							background:rgba(255,255,255,0.2);
+							@include single-box-shadow(rgba(0,0,0,0.2), 0, 0, 7px, 2px, inset);
+						}
+						
+						&:hover span {
+							display:block;
+						}
+
+					}
+
+				}
+
+				.mInfo {
+					
+					h3 {
+						
+						padding:20px 0 10px;
+						text-overflow:ellipsis;
+						
+						a {
+							color:#000;
+							&:hover {
+								background:tint($gobcolor, 60);
+							}
+						}
+
+					}
+
+					p {
+						font-size:0.875em;
+						color:#666;
+						padding-right:30px;
+					}
+
+					.badge {
+						position:absolute;
+						top:10px;
+						left:10px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	#loadMore {
+		text-align:center;
+		padding-top:30px;
+	}
