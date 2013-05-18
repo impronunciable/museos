@@ -241,16 +241,20 @@ strong {
     margin-bottom: 30px; }
     /* line 11, ../scss/components/_content.scss */
     #content #description p {
-      line-height: 170%; }
-  /* line 20, ../scss/components/_content.scss */
+      line-height: 170%;
+      padding-bottom: 15px; }
+    /* line 16, ../scss/components/_content.scss */
+    #content #description span {
+      color: #145b32; }
+  /* line 25, ../scss/components/_content.scss */
   #content #instagram ul {
     width: 32000px;
     overflow: hidden; }
-    /* line 25, ../scss/components/_content.scss */
+    /* line 30, ../scss/components/_content.scss */
     #content #instagram ul li {
       float: left;
       margin-right: 15px; }
-      /* line 30, ../scss/components/_content.scss */
+      /* line 35, ../scss/components/_content.scss */
       #content #instagram ul li a {
         display: block;
         overflow: hidden;
@@ -262,7 +266,7 @@ strong {
         -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
-        /* line 37, ../scss/components/_content.scss */
+        /* line 42, ../scss/components/_content.scss */
         #content #instagram ul li a img {
           display: block;
           width: 80px;
@@ -283,3 +287,12 @@ strong {
     line-height: 160%;
     color: #666;
     padding-top: 20px; }
+
+/* line 2, ../scss/components/_footer.scss */
+#footer {
+  background: #FAFAFA;
+  margin-top: 30px;
+  padding: 15px 0;
+  font-size: 0.75em;
+  color: #999;
+  border-top: 1px solid #EEE; }
