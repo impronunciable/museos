@@ -8,46 +8,55 @@
 
 		#heroHolder {
 			
-			padding-top:150px;
-			height:450px;
+			padding:160px 0 80px;
 			background:rgba(0,0,0,0.6);
 			
 			.wrap {
 
 				#heroInfo {
 
+					clear:both;
+
 					h2 {
 
 						font-size:3.5em;
-						line-height:130%;
-						padding-bottom:25px;
+						line-height:120%;
+						padding-bottom:30px;
 
 					}
 				
 					p {
-						width:80%;
-						color:rgba(255,255,255,0.8);
+
+						color:rgba(255,255,255,0.85);
 						font-size:1.125em;
 						font-weight:300;
-						line-height:170%;
+						line-height:160%;
+						padding-bottom:12px;
+
+						strong {
+							color:#FFC;
+						}
+
 					}
 
 				}
 
 				#heroStatus {
-
-					position:absolute;
-					right:30px;
-					bottom:30px;
+					
+					overflow:hidden;
+					font-size:0.875em;
+					padding-bottom:35px;
 
 					strong {
-						float:right;
-						padding:10px 20px;
+						float:left;
+						padding:10px 20px 10px 42px;
+						background:rgba(0,0,0,0.4);
 						@include border-radius(3px);
+						background:image-url('icons/museum.png', false, false) no-repeat 15px 12px;
 					}
 					
 					&.open strong {
-						background:$open;
+						background-color:$open;
 					}
 
 				}

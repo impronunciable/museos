@@ -13,3 +13,19 @@
 	a {
 		text-decoration:none;
 	}
+
+	strong {
+		font-weight:600;
+	}
+
+	.btn {
+		font-size:0.938em;
+		@include inline-block;
+		@include border-radius(20px);
+		padding:7px 20px;
+		color:#FFF;
+		background:#000;
+	}
+	.btn-tw {
+		background:$twitter;
+	}

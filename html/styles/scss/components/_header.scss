@@ -7,42 +7,64 @@
 		left:0;
 		z-index:2;
 
-		#logo, #menu {
-			float:left;
-		}
-
-		#logo {
-
-			margin-right:100px;
+		.wrap {
 			
-			a {
+			overflow:hidden;
+			padding-bottom:30px;
+			border-bottom:1px solid rgba(255,255,255,0.1);
+
+			#menu,
+			#login {
+				float:right;
+			}
+
+			#logo {
 				
-				@include hidetext;
-				width:281px;
-				height:48px;
-				background:image-url('logo.png', false, false) no-repeat 0 0;
+				float:left;
+				margin-right:100px;
+				
+				a {
+					
+					@include hidetext;
+					width:260px;
+					height:45px;
+					background:image-url('logo.png', false, false) no-repeat 0 0;
+
+				}
 
 			}
 
-		}
+			#menu {
 
-		#menu {
-			
-			ul {
+				margin-top:10px;
 				
-				li {
+				ul {
+					
+					li {
 
-					float:left;
-					font-size:0.813em;
-					margin-left:30px;
-					text-transform:uppercase;
-					letter-spacing:0.2em;
-				
-					a {
-						color:#FFF;
+						float:left;
+						font-size:0.75em;
+						margin-left:30px;
+						text-transform:uppercase;
+						letter-spacing:0.2em;
+					
+						a {
+							color:#FFF;
+						}
+
+					}
+
+					.current a {
+						color:#FFC;
 					}
 
 				}
+
+			}
+
+			#login {
+				
+				margin-left:30px;
 
 			}
 

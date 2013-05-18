@@ -67,6 +67,32 @@ body {
 a {
   text-decoration: none; }
 
+/* line 17, ../scss/components/_base.scss */
+strong {
+  font-weight: 600; }
+
+/* line 21, ../scss/components/_base.scss */
+.btn {
+  font-size: 0.938em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  padding: 7px 20px;
+  color: #FFF;
+  background: #000; }
+
+/* line 29, ../scss/components/_base.scss */
+.btn-tw {
+  background: #2e81bc; }
+
 /* line 2, ../scss/components/_header.scss */
 #header {
   width: 100%;
@@ -75,29 +101,45 @@ a {
   left: 0;
   z-index: 2; }
   /* line 10, ../scss/components/_header.scss */
-  #header #logo, #header #menu {
-    float: left; }
-  /* line 14, ../scss/components/_header.scss */
-  #header #logo {
-    margin-right: 100px; }
-    /* line 18, ../scss/components/_header.scss */
-    #header #logo a {
-      display: block;
-      font-size: 0;
-      text-indent: -9999em;
-      width: 281px;
-      height: 48px;
-      background: url('../../images/logo.png') no-repeat 0 0; }
-  /* line 33, ../scss/components/_header.scss */
-  #header #menu ul li {
-    float: left;
-    font-size: 0.813em;
-    margin-left: 30px;
-    text-transform: uppercase;
-    letter-spacing: 0.2em; }
-    /* line 41, ../scss/components/_header.scss */
-    #header #menu ul li a {
-      color: #FFF; }
+  #header .wrap {
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+    /* line 17, ../scss/components/_header.scss */
+    #header .wrap #menu,
+    #header .wrap #login {
+      float: right; }
+    /* line 21, ../scss/components/_header.scss */
+    #header .wrap #logo {
+      float: left;
+      margin-right: 100px; }
+      /* line 26, ../scss/components/_header.scss */
+      #header .wrap #logo a {
+        display: block;
+        font-size: 0;
+        text-indent: -9999em;
+        width: 260px;
+        height: 45px;
+        background: url('../../images/logo.png') no-repeat 0 0; }
+    /* line 37, ../scss/components/_header.scss */
+    #header .wrap #menu {
+      margin-top: 10px; }
+      /* line 43, ../scss/components/_header.scss */
+      #header .wrap #menu ul li {
+        float: left;
+        font-size: 0.75em;
+        margin-left: 30px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em; }
+        /* line 51, ../scss/components/_header.scss */
+        #header .wrap #menu ul li a {
+          color: #FFF; }
+      /* line 57, ../scss/components/_header.scss */
+      #header .wrap #menu ul .current a {
+        color: #FFC; }
+    /* line 65, ../scss/components/_header.scss */
+    #header .wrap #login {
+      margin-left: 30px; }
 
 /* line 2, ../scss/components/_hero.scss */
 #hero {
@@ -107,35 +149,42 @@ a {
   color: #FFF; }
   /* line 9, ../scss/components/_hero.scss */
   #hero #heroHolder {
-    padding-top: 150px;
-    height: 450px;
+    padding: 160px 0 80px;
     background: rgba(0, 0, 0, 0.6); }
-    /* line 19, ../scss/components/_hero.scss */
-    #hero #heroHolder .wrap #heroInfo h2 {
-      font-size: 3.5em;
-      line-height: 130%;
-      padding-bottom: 25px; }
-    /* line 27, ../scss/components/_hero.scss */
-    #hero #heroHolder .wrap #heroInfo p {
-      width: 80%;
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 1.125em;
-      font-weight: 300;
-      line-height: 170%; }
-    /* line 37, ../scss/components/_hero.scss */
+    /* line 16, ../scss/components/_hero.scss */
+    #hero #heroHolder .wrap #heroInfo {
+      clear: both; }
+      /* line 20, ../scss/components/_hero.scss */
+      #hero #heroHolder .wrap #heroInfo h2 {
+        font-size: 3.5em;
+        line-height: 120%;
+        padding-bottom: 30px; }
+      /* line 28, ../scss/components/_hero.scss */
+      #hero #heroHolder .wrap #heroInfo p {
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 1.125em;
+        font-weight: 300;
+        line-height: 160%;
+        padding-bottom: 12px; }
+        /* line 36, ../scss/components/_hero.scss */
+        #hero #heroHolder .wrap #heroInfo p strong {
+          color: #FFC; }
+    /* line 44, ../scss/components/_hero.scss */
     #hero #heroHolder .wrap #heroStatus {
-      position: absolute;
-      right: 30px;
-      bottom: 30px; }
-      /* line 43, ../scss/components/_hero.scss */
+      overflow: hidden;
+      font-size: 0.875em;
+      padding-bottom: 35px; }
+      /* line 50, ../scss/components/_hero.scss */
       #hero #heroHolder .wrap #heroStatus strong {
-        float: right;
-        padding: 10px 20px;
+        float: left;
+        padding: 10px 20px 10px 42px;
+        background: rgba(0, 0, 0, 0.4);
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         -ms-border-radius: 3px;
         -o-border-radius: 3px;
-        border-radius: 3px; }
-      /* line 49, ../scss/components/_hero.scss */
+        border-radius: 3px;
+        background: url('../../images/icons/museum.png') no-repeat 15px 12px; }
+      /* line 58, ../scss/components/_hero.scss */
       #hero #heroHolder .wrap #heroStatus.open strong {
-        background: #27ae60; }
+        background-color: #27ae60; }
