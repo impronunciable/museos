@@ -3,7 +3,7 @@
 
 $.getJSON('https://search.twitter.com/search.json?q=messi&callback=?', function(data){
 	var html = "";
-	for(var i = 0; i < 3; i++) {
+	for(var i = 0; i < 6; i++) {
 		var el = data.results[i];
 		html += "<li><span class='twPic'><img src='"+el.profile_image_url+"'></span><span class='twText'>"+el.text+"<em>"+el.created_at+"</em></span></li>"
 	}
