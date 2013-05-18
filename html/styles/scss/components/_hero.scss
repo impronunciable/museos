@@ -18,7 +18,25 @@
 
 				#heroInfo {
 					
-					padding:170px 0 60px;
+					padding:150px 0 60px;
+
+					#rating {
+
+						@include hidetext;
+						width:117px;
+						height:20px;
+						margin-bottom:30px;
+						background-image:image-url('icons/rating.png', false, false);
+						background-repeat:no-repeat;
+						
+
+						@for $i from 1 through 5 {
+							&.stars-#{$i} {
+								background-position:0 -#{$i * 20}px;
+							}
+						}
+
+					}
 
 					h2, p strong {
 						@include museo;

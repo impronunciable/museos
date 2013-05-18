@@ -2,12 +2,23 @@
   /* line 4, ../scss/responsive.scss */
   .wrap {
     width: auto;
-    padding: 0 30px; }
+    padding-left: 30px !important;
+    padding-right: 30px !important; }
 
-  /* line 11, ../scss/responsive.scss */
+  /* line 12, ../scss/responsive.scss */
   #header #menu ul {
     display: none; } }
-@media screen and (max-width: 400px) {
-  /* line 23, ../scss/responsive.scss */
-  #hero #heroHolder .wrap #heroInfo h2 {
-    font-size: 1em; } }
+@media screen and (max-width: 800px) {
+  /* line 24, ../scss/responsive.scss */
+  #hero #heroHolder .wrap #heroInfo h2 {
+    font-size: 2em; }
+
+  /* line 30, ../scss/responsive.scss */
+  #hero #heroContact ul #hc-museum li {
+    margin: 0 0 10px 0; }
+
+  /* line 35, ../scss/responsive.scss */
+  #content,
+  #sidebar {
+    float: none;
+    width: auto; } }

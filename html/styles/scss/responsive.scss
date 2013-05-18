@@ -3,7 +3,8 @@
 		
 		.wrap {
 			width:auto;
-			padding:0 30px;
+			padding-left:30px !important;
+			padding-right:30px !important;
 		}
 
 		#header #menu {
@@ -16,14 +17,24 @@
 
 	}
 
-	@media screen and (max-width:400px){
+	@media screen and (max-width:800px){
 		
-		#hero #heroHolder .wrap #heroInfo {
+		#hero #heroHolder .wrap #heroInfo {
 			
 			h2 {
-				font-size:1em;
+				font-size:2em;
 			}
 
+		}
+
+		#hero #heroContact ul #hc-museum li {
+			margin:0 0 10px 0;
+		}
+
+		#content,
+		#sidebar {
+			float:none;
+			width:auto;
 		}
 
 	}

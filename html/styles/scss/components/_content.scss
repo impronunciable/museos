@@ -24,13 +24,12 @@
 
 			ul {
 				
-				width:32000px;
 				overflow:hidden;
 
 				li {
 					
 					float:left;
-					margin-right:15px;
+					margin:0 15px 15px 0;
 
 					a {
 						
@@ -47,6 +46,10 @@
 
 						}
 
+					}
+
+					&:nth-child(7){
+						clear:left;
 					}
 
 				}

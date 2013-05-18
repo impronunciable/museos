@@ -73,6 +73,10 @@ strong {
   font-weight: 600; }
 
 /* line 22, ../scss/components/_base.scss */
+em {
+  font-style: italic; }
+
+/* line 26, ../scss/components/_base.scss */
 .btn {
   font-size: 0.938em;
   display: -moz-inline-stack;
@@ -90,15 +94,15 @@ strong {
   color: #FFF;
   background: #000; }
 
-/* line 30, ../scss/components/_base.scss */
+/* line 34, ../scss/components/_base.scss */
 .btn-tw {
   background: #2e81bc; }
 
-/* line 34, ../scss/components/_base.scss */
+/* line 38, ../scss/components/_base.scss */
 #central {
   overflow: hidden;
   padding: 30px 0 60px; }
-  /* line 39, ../scss/components/_base.scss */
+  /* line 43, ../scss/components/_base.scss */
   #central h3 {
     font-size: 1.333em;
     font-weight: 300;
@@ -174,32 +178,57 @@ strong {
       overflow: hidden; }
       /* line 19, ../scss/components/_hero.scss */
       #hero #heroHolder .wrap #heroInfo {
-        padding: 170px 0 60px; }
+        padding: 150px 0 60px; }
         /* line 23, ../scss/components/_hero.scss */
+        #hero #heroHolder .wrap #heroInfo #rating {
+          display: block;
+          font-size: 0;
+          text-indent: -9999em;
+          width: 117px;
+          height: 20px;
+          margin-bottom: 30px;
+          background-image: url('../../images/icons/rating.png');
+          background-repeat: no-repeat; }
+          /* line 34, ../scss/components/_hero.scss */
+          #hero #heroHolder .wrap #heroInfo #rating.stars-1 {
+            background-position: 0 -20px; }
+          /* line 34, ../scss/components/_hero.scss */
+          #hero #heroHolder .wrap #heroInfo #rating.stars-2 {
+            background-position: 0 -40px; }
+          /* line 34, ../scss/components/_hero.scss */
+          #hero #heroHolder .wrap #heroInfo #rating.stars-3 {
+            background-position: 0 -60px; }
+          /* line 34, ../scss/components/_hero.scss */
+          #hero #heroHolder .wrap #heroInfo #rating.stars-4 {
+            background-position: 0 -80px; }
+          /* line 34, ../scss/components/_hero.scss */
+          #hero #heroHolder .wrap #heroInfo #rating.stars-5 {
+            background-position: 0 -100px; }
+        /* line 41, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo h2, #hero #heroHolder .wrap #heroInfo p strong {
           font-family: 'Museo', Helvetica Neue, Helvetica, Arial, sans-serif;
           font-weight: 600; }
-        /* line 28, ../scss/components/_hero.scss */
+        /* line 46, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo h2 {
           font-size: 3.5em;
           font-weight: 600;
           line-height: 120%;
           padding-bottom: 30px; }
-        /* line 37, ../scss/components/_hero.scss */
+        /* line 55, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo p {
           color: rgba(255, 255, 255, 0.85);
           font-size: 1.25em;
           font-weight: 300;
           line-height: 160%;
           padding-bottom: 12px; }
-          /* line 45, ../scss/components/_hero.scss */
+          /* line 63, ../scss/components/_hero.scss */
           #hero #heroHolder .wrap #heroInfo p strong {
             font-size: 1.25em;
             font-weight: 300; }
-  /* line 60, ../scss/components/_hero.scss */
+  /* line 78, ../scss/components/_hero.scss */
   #hero #heroContact ul {
     overflow: hidden; }
-    /* line 64, ../scss/components/_hero.scss */
+    /* line 82, ../scss/components/_hero.scss */
     #hero #heroContact ul li {
       float: left;
       margin-right: 10px;
@@ -212,23 +241,23 @@ strong {
       -ms-border-radius: 2px;
       -o-border-radius: 2px;
       border-radius: 2px; }
-      /* line 74, ../scss/components/_hero.scss */
+      /* line 92, ../scss/components/_hero.scss */
       #hero #heroContact ul li a {
         color: #FFF; }
-        /* line 76, ../scss/components/_hero.scss */
+        /* line 94, ../scss/components/_hero.scss */
         #hero #heroContact ul li a:hover {
           color: #FFC;
           text-decoration: underline; }
-    /* line 86, ../scss/components/_hero.scss */
+    /* line 104, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-museum {
       background: rgba(255, 255, 255, 0.15) url('../../images/icons/museum.png') no-repeat 15px 18px; }
-    /* line 86, ../scss/components/_hero.scss */
+    /* line 104, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-phone {
       background: rgba(255, 255, 255, 0.15) url('../../images/icons/phone.png') no-repeat 15px 18px; }
-    /* line 86, ../scss/components/_hero.scss */
+    /* line 104, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-website {
       background: rgba(255, 255, 255, 0.15) url('../../images/icons/website.png') no-repeat 15px 18px; }
-    /* line 93, ../scss/components/_hero.scss */
+    /* line 111, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-museum.open {
       background-color: #27ae60; }
 
@@ -248,13 +277,12 @@ strong {
       color: #145b32; }
   /* line 25, ../scss/components/_content.scss */
   #content #instagram ul {
-    width: 32000px;
     overflow: hidden; }
-    /* line 30, ../scss/components/_content.scss */
+    /* line 29, ../scss/components/_content.scss */
     #content #instagram ul li {
       float: left;
-      margin-right: 15px; }
-      /* line 35, ../scss/components/_content.scss */
+      margin: 0 15px 15px 0; }
+      /* line 34, ../scss/components/_content.scss */
       #content #instagram ul li a {
         display: block;
         overflow: hidden;
@@ -266,14 +294,17 @@ strong {
         -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
-        /* line 42, ../scss/components/_content.scss */
+        /* line 41, ../scss/components/_content.scss */
         #content #instagram ul li a img {
           display: block;
           width: 80px;
           height: 80px; }
+      /* line 51, ../scss/components/_content.scss */
+      #content #instagram ul li:nth-child(7) {
+        clear: left; }
 
-/* line 4, ../scss/components/_sidebar.scss */
-#sidebar #map {
+/* line 2, ../scss/components/_sidebar.scss */
+#sidebar {
   float: right;
   width: 30%; }
   /* line 9, ../scss/components/_sidebar.scss */
@@ -287,6 +318,34 @@ strong {
     line-height: 160%;
     color: #666;
     padding-top: 20px; }
+  /* line 26, ../scss/components/_sidebar.scss */
+  #sidebar #twitter li {
+    overflow: hidden; }
+    /* line 30, ../scss/components/_sidebar.scss */
+    #sidebar #twitter li .twPic {
+      float: left;
+      width: 40px;
+      height: 40px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+      border-radius: 3px; }
+      /* line 37, ../scss/components/_sidebar.scss */
+      #sidebar #twitter li .twPic img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    /* line 45, ../scss/components/_sidebar.scss */
+    #sidebar #twitter li .twText {
+      float: right;
+      width: 80%;
+      font-size: 0.813em;
+      margin-bottom: 10px;
+      line-height: 150%; }
+      /* line 53, ../scss/components/_sidebar.scss */
+      #sidebar #twitter li .twText em {
+        font-color: #999; }
 
 /* line 2, ../scss/components/_footer.scss */
 #footer {
