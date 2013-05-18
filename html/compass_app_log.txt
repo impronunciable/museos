@@ -1,0 +1,161 @@
+2013-05-18 14:00:30    create styles/css/museums.css 
+2013-05-18 14:00:58 identical styles/css/museums.css 
+2013-05-18 14:01:04 identical styles/css/museums.css 
+2013-05-18 14:01:16 overwrite styles/css/museums.css 
+2013-05-18 14:02:46 overwrite styles/css/museums.css 
+2013-05-18 14:02:56 identical styles/css/museums.css 
+2013-05-18 14:03:11 identical styles/css/museums.css 
+2013-05-18 14:03:44 overwrite styles/css/museums.css 
+2013-05-18 14:03:46 identical styles/css/museums.css 
+2013-05-18 14:03:55 overwrite styles/css/museums.css 
+2013-05-18 14:04:11 overwrite styles/css/museums.css 
+2013-05-18 14:06:35 overwrite styles/css/museums.css 
+2013-05-18 14:06:46     error styles/scss/museums.scss (Line 6: File to import not found or unreadable: components/_home.
+Load paths:
+  /Users/ignacioricci/Desktop/museos/html/styles/scss
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2013-05-18 14:06:46 overwrite styles/css/museums.css 
+2013-05-18 14:06:48 overwrite styles/css/museums.css 
+2013-05-18 14:12:07 overwrite styles/css/museums.css 
+2013-05-18 14:12:23 overwrite styles/css/museums.css 
+2013-05-18 14:13:01 overwrite styles/css/museums.css 
+2013-05-18 14:13:22 overwrite styles/css/museums.css 
+2013-05-18 14:13:27 overwrite styles/css/museums.css 
+2013-05-18 14:13:34 overwrite styles/css/museums.css 
+2013-05-18 14:13:43 overwrite styles/css/museums.css 
+2013-05-18 14:15:57 overwrite styles/css/museums.css 
+2013-05-18 14:16:18 overwrite styles/css/museums.css 
+2013-05-18 14:17:21     error styles/scss/museums.scss (Line 4 of styles/scss/components/_header.scss: Invalid CSS after "		padding:": expected expression (e.g. 1px, bold), was ";")
+2013-05-18 14:17:21 overwrite styles/css/museums.css 
+2013-05-18 14:17:21     error styles/scss/museums.scss (Line 4 of styles/scss/components/_header.scss: Invalid CSS after "		padding:": expected expression (e.g. 1px, bold), was ";")
+2013-05-18 14:17:21 identical styles/css/museums.css 
+2013-05-18 14:17:29 overwrite styles/css/museums.css 
+2013-05-18 14:17:38 identical styles/css/museums.css 
+2013-05-18 14:17:55 overwrite styles/css/museums.css 
+2013-05-18 14:18:16 overwrite styles/css/museums.css 
+2013-05-18 14:19:08 overwrite styles/css/museums.css 
+2013-05-18 14:19:32 overwrite styles/css/museums.css 
+2013-05-18 14:20:51 overwrite styles/css/museums.css 
+2013-05-18 14:20:56 overwrite styles/css/museums.css 
+2013-05-18 14:21:13 overwrite styles/css/museums.css 
+2013-05-18 14:21:20 overwrite styles/css/museums.css 
+2013-05-18 14:22:37 identical styles/css/museums.css 
+2013-05-18 14:23:03 overwrite styles/css/museums.css 
+2013-05-18 14:23:10 identical styles/css/museums.css 
+2013-05-18 14:23:38 overwrite styles/css/museums.css 
+2013-05-18 14:24:03 overwrite styles/css/museums.css 
+2013-05-18 14:24:28 overwrite styles/css/museums.css 
+2013-05-18 14:24:33 overwrite styles/css/museums.css 
+2013-05-18 14:26:10 overwrite styles/css/museums.css 
+2013-05-18 14:26:13 identical styles/css/museums.css 
+2013-05-18 14:26:22 overwrite styles/css/museums.css 
+2013-05-18 14:26:36 overwrite styles/css/museums.css 
+2013-05-18 14:26:43 overwrite styles/css/museums.css 
+2013-05-18 14:26:59 overwrite styles/css/museums.css 
+2013-05-18 14:27:04 overwrite styles/css/museums.css 
+2013-05-18 14:31:45 overwrite styles/css/museums.css 
+2013-05-18 14:31:57 overwrite styles/css/museums.css 
+2013-05-18 14:32:37 overwrite styles/css/museums.css 
+2013-05-18 14:32:45 overwrite styles/css/museums.css 
+2013-05-18 14:32:52 overwrite styles/css/museums.css 
+2013-05-18 14:32:58 overwrite styles/css/museums.css 
+2013-05-18 14:33:05 overwrite styles/css/museums.css 
+2013-05-18 14:33:08 overwrite styles/css/museums.css 
+2013-05-18 14:33:21 overwrite styles/css/museums.css 
+2013-05-18 14:33:46 identical styles/css/museums.css 
+2013-05-18 14:34:01 overwrite styles/css/museums.css 
+2013-05-18 14:34:07 overwrite styles/css/museums.css 
+2013-05-18 14:34:18 overwrite styles/css/museums.css 
+2013-05-18 14:34:25 overwrite styles/css/museums.css 
+2013-05-18 14:34:31 overwrite styles/css/museums.css 
+2013-05-18 14:34:35 overwrite styles/css/museums.css 
+2013-05-18 14:34:48 overwrite styles/css/museums.css 
+2013-05-18 14:34:56 overwrite styles/css/museums.css 
+2013-05-18 14:35:03 overwrite styles/css/museums.css 
+2013-05-18 14:35:10 overwrite styles/css/museums.css 
+2013-05-18 14:35:17 overwrite styles/css/museums.css 
+2013-05-18 14:35:27 overwrite styles/css/museums.css 
+2013-05-18 14:35:30 overwrite styles/css/museums.css 
+2013-05-18 14:36:33 overwrite styles/css/museums.css 
+2013-05-18 14:36:40 overwrite styles/css/museums.css 
+2013-05-18 14:41:32 overwrite styles/css/museums.css 
+2013-05-18 14:41:44 overwrite styles/css/museums.css 
+2013-05-18 14:41:58 overwrite styles/css/museums.css 
+2013-05-18 14:42:23 overwrite styles/css/museums.css 
+2013-05-18 14:42:35 overwrite styles/css/museums.css 
+2013-05-18 14:42:39 overwrite styles/css/museums.css 
+2013-05-18 14:42:43 overwrite styles/css/museums.css 
+2013-05-18 14:42:50 overwrite styles/css/museums.css 
+2013-05-18 14:42:55 overwrite styles/css/museums.css 
+2013-05-18 14:42:57 identical styles/css/museums.css 
+2013-05-18 14:43:05 overwrite styles/css/museums.css 
+2013-05-18 14:43:11 overwrite styles/css/museums.css 
+2013-05-18 14:43:19 overwrite styles/css/museums.css 
+2013-05-18 14:45:10 overwrite styles/css/museums.css 
+2013-05-18 14:45:17 overwrite styles/css/museums.css 
+2013-05-18 14:45:23 overwrite styles/css/museums.css 
+2013-05-18 14:45:35 overwrite styles/css/museums.css 
+2013-05-18 14:45:41 overwrite styles/css/museums.css 
+2013-05-18 14:45:44 overwrite styles/css/museums.css 
+2013-05-18 14:46:12     error styles/scss/museums.scss (Line 26 of styles/scss/components/_hero.scss: Invalid CSS after "							rgba": expected "{", was "(0,0,0,0.5);")
+2013-05-18 14:46:12 overwrite styles/css/museums.css 
+2013-05-18 14:46:13     error styles/scss/museums.scss (Line 26 of styles/scss/components/_hero.scss: Invalid CSS after "							rgba": expected "{", was "(0,0,0,0.5);")
+2013-05-18 14:46:13 identical styles/css/museums.css 
+2013-05-18 14:46:18 overwrite styles/css/museums.css 
+2013-05-18 14:46:24 overwrite styles/css/museums.css 
+2013-05-18 14:46:28 overwrite styles/css/museums.css 
+2013-05-18 14:46:34 overwrite styles/css/museums.css 
+2013-05-18 14:46:37 overwrite styles/css/museums.css 
+2013-05-18 14:46:38 identical styles/css/museums.css 
+2013-05-18 14:46:44 overwrite styles/css/museums.css 
+2013-05-18 14:46:51 overwrite styles/css/museums.css 
+2013-05-18 14:46:55 overwrite styles/css/museums.css 
+2013-05-18 14:47:02 overwrite styles/css/museums.css 
+2013-05-18 14:47:11 overwrite styles/css/museums.css 
+2013-05-18 14:47:20 overwrite styles/css/museums.css 
+2013-05-18 14:47:27 overwrite styles/css/museums.css 
+2013-05-18 14:47:34 overwrite styles/css/museums.css 
+2013-05-18 14:47:50 overwrite styles/css/museums.css 
+2013-05-18 14:47:56 overwrite styles/css/museums.css 
+2013-05-18 14:48:14 overwrite styles/css/museums.css 
+2013-05-18 14:48:47 overwrite styles/css/museums.css 
+2013-05-18 14:48:50 overwrite styles/css/museums.css 
+2013-05-18 14:48:57 overwrite styles/css/museums.css 
+2013-05-18 14:49:03 overwrite styles/css/museums.css 
+2013-05-18 14:49:43 overwrite styles/css/museums.css 
+2013-05-18 14:49:50 overwrite styles/css/museums.css 
+2013-05-18 14:52:44 overwrite styles/css/museums.css 
+2013-05-18 14:52:55 overwrite styles/css/museums.css 
+2013-05-18 14:53:05 overwrite styles/css/museums.css 
+2013-05-18 14:53:18 overwrite styles/css/museums.css 
+2013-05-18 14:53:49 overwrite styles/css/museums.css 
+2013-05-18 14:53:56 identical styles/css/museums.css 
+2013-05-18 14:54:24 overwrite styles/css/museums.css 
+2013-05-18 14:54:32 overwrite styles/css/museums.css 
+2013-05-18 14:54:36 overwrite styles/css/museums.css 
+2013-05-18 14:54:49 overwrite styles/css/museums.css 
+2013-05-18 14:54:54 overwrite styles/css/museums.css 
+2013-05-18 14:55:00 overwrite styles/css/museums.css 
+2013-05-18 14:55:14 overwrite styles/css/museums.css 
+2013-05-18 14:55:28 overwrite styles/css/museums.css 
+2013-05-18 14:55:39 overwrite styles/css/museums.css 
+2013-05-18 14:55:47 overwrite styles/css/museums.css 
+2013-05-18 14:55:52 overwrite styles/css/museums.css 
+2013-05-18 14:56:01 overwrite styles/css/museums.css 
+2013-05-18 14:56:07 overwrite styles/css/museums.css 
+2013-05-18 14:56:13 overwrite styles/css/museums.css 
+2013-05-18 14:56:29 overwrite styles/css/museums.css 
+2013-05-18 14:56:42 overwrite styles/css/museums.css 
+2013-05-18 14:56:47 overwrite styles/css/museums.css 
+2013-05-18 14:57:02 overwrite styles/css/museums.css 
+2013-05-18 15:00:15 overwrite styles/css/museums.css 
+2013-05-18 15:00:51 overwrite styles/css/museums.css 

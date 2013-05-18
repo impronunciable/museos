@@ -1,0 +1,51 @@
+	
+	#header {
+		
+		width:100%;
+		position:absolute;
+		top:50px;
+		left:0;
+		z-index:2;
+
+		#logo, #menu {
+			float:left;
+		}
+
+		#logo {
+
+			margin-right:100px;
+			
+			a {
+				
+				@include hidetext;
+				width:281px;
+				height:48px;
+				background:image-url('logo.png', false, false) no-repeat 0 0;
+
+			}
+
+		}
+
+		#menu {
+			
+			ul {
+				
+				li {
+
+					float:left;
+					font-size:0.813em;
+					margin-left:30px;
+					text-transform:uppercase;
+					letter-spacing:0.2em;
+				
+					a {
+						color:#FFF;
+					}
+
+				}
+
+			}
+
+		}
+
+	}

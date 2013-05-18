@@ -1,0 +1,15 @@
+
+	
+	$gobcolor: #FFDC3A;
+	$open : #27AE60;
+	$closed : #C0392B; 
+
+	@mixin hidetext {
+		display:block;
+		font-size:0;
+		text-indent:-9999em;
+	}
+
+	@mixin gotham {
+		font-family:'Gotham', Helvetica Neue, Helvetica, Arial, sans-serif;
+	}

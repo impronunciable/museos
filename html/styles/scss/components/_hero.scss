@@ -1,0 +1,59 @@
+	
+	#hero {
+
+		position:relative;
+		overflow:hidden;
+		background-size:cover;
+		color:#FFF;
+
+		#heroHolder {
+			
+			padding-top:150px;
+			height:450px;
+			background:rgba(0,0,0,0.6);
+			
+			.wrap {
+
+				#heroInfo {
+
+					h2 {
+
+						font-size:3.5em;
+						line-height:130%;
+						padding-bottom:25px;
+
+					}
+				
+					p {
+						width:80%;
+						color:rgba(255,255,255,0.8);
+						font-size:1.125em;
+						font-weight:300;
+						line-height:170%;
+					}
+
+				}
+
+				#heroStatus {
+
+					position:absolute;
+					right:30px;
+					bottom:30px;
+
+					strong {
+						float:right;
+						padding:10px 20px;
+						@include border-radius(3px);
+					}
+					
+					&.open strong {
+						background:$open;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
