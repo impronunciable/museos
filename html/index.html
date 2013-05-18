@@ -5,6 +5,7 @@
 	<title>Museos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="styles/css/museums.css" />
+	<link rel="stylesheet" type="text/css" href="styles/css/responsive.css" />
 	<link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
@@ -18,6 +19,7 @@
 				<a href="#" class="btn btn-tw">Ingresar con Twitter</a>
 			</div>
 			<nav id="menu">
+				<strong>Menu</strong>
 				<ul>
 					<li><a href="#">Inicio</a></li>
 					<li class="current"><a href="#">Museos (34)</a></li>
@@ -30,24 +32,54 @@
 	<section id="hero" style="background-image:url(images/museum.jpg);">
 		<div id="heroHolder">
 			<div class="wrap">
-				<div id="heroStatus" class="open">
-					<strong>Ahora está abierto</strong>
-				</div>
 				<div id="heroInfo">
 					<h2>Museo de Arte Latinoamericano de Buenos Aires (MALBA)</h2>
 					<p><strong>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</strong></p>
-					<p>Morbi ipsum elit, rutrum ac aliquam eget, fermentum nec elit. Pellentesque erat tortor, vestibulum ac auctor at, viverra ac libero. Fusce fermentum mauris vitae nisi aliquam at euismod dui mollis. In commodo, turpis sed hendrerit tincidunt, lorem quam pulvinar magna, a vulputate purus augue eu mauris.</p>
 				</div>
 				<div id="heroStats">
 					
 				</div>
 			</div>
+			<div id="heroContact">
+				<ul class="wrap">
+					<li id="hc-museum" class="open">Ahora está abierto</li>			
+					<li id="hc-phone">4523-1231</li>
+					<li id="hc-website"><a href="#">www.museocultural.com.ar</a></li>
+				</ul>
+			</div>
 		</div>
 	</section>
 
-	<section id="central">
-
+	<section id="central" class="wrap">
+		<div id="content">
+			<div id="description">
+				<h3>Horario</h3>
+				<p>Martes a viernes: 11 a 19 hs.  Sábados, domingos y feriados: 11 a 20 hs.  Lunes cerrado (excepto feriados).</p>
+				<h3>Descripción</h3>
+				<p>En una usina cultural que amalgama a los clásicos con los nuevos talentos de humor gráfico, la historieta y la animación, con muestras permanentes y transitorias más actividades y programas educativos, la ciudad presenta en la Costanera Sur un nodo creativo que desborda los cuadritos y transforma la realidad.</p>
+			</div>
+			<div id="instagram">
+				<h3>Fotos recientes de Instagram</h3>
+				<ul>
+					<li><a href="#"><img src="images/museum.jpg" alt=""></a></li>
+					<li><a href="#"><img src="images/museum.jpg" alt=""></a></li>
+					<li><a href="#"><img src="images/museum.jpg" alt=""></a></li>
+					<li><a href="#"><img src="images/museum.jpg" alt=""></a></li>
+					<li><a href="#"><img src="images/museum.jpg" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<aside id="sidebar">
+			<div id="map">
+				<h3>Ubicación</h3>
+				<div id="gMap"></div>
+				<p><strong>Vías de transporte: </strong> Líneas de Colectivos: 4, 9, 10, 17, 20, 22, 24, 28, 29, 33, 39, 45, 46, 53, 61, 62, 64, 65, 70, 74, 86, 93, 126, 130, 143, 152, 159 y 186.  Línea de subterráneo: C - Estación San Juan.</p>
+			</div>
+		</aside>
 	</section>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/museos.js"></script>
 
 </body>
 </html>

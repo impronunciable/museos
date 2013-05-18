@@ -3,23 +3,32 @@
 
 		position:relative;
 		overflow:hidden;
+		background-color:#000;
 		background-size:cover;
 		color:#FFF;
 
 		#heroHolder {
 			
-			padding:160px 0 80px;
-			background:rgba(0,0,0,0.6);
+			background:rgba(0,0,0,0.65);
+			padding-bottom:70px;
 			
 			.wrap {
 
-				#heroInfo {
+				overflow:hidden;
 
-					clear:both;
+				#heroInfo {
+					
+					padding:170px 0 60px;
+
+					h2, p strong {
+						@include museo;
+						font-weight:600;
+					}
 
 					h2 {
 
 						font-size:3.5em;
+						font-weight:600;
 						line-height:120%;
 						padding-bottom:30px;
 
@@ -28,34 +37,60 @@
 					p {
 
 						color:rgba(255,255,255,0.85);
-						font-size:1.125em;
+						font-size:1.25em;
 						font-weight:300;
 						line-height:160%;
 						padding-bottom:12px;
 
 						strong {
-							color:#FFC;
+							font-size:1.25em;
+							font-weight:300;
 						}
 
 					}
 
 				}
 
-				#heroStatus {
-					
-					overflow:hidden;
-					font-size:0.875em;
-					padding-bottom:35px;
+			}
 
-					strong {
-						float:left;
-						padding:10px 20px 10px 42px;
-						background:rgba(0,0,0,0.4);
-						@include border-radius(3px);
-						background:image-url('icons/museum.png', false, false) no-repeat 15px 12px;
-					}
+		}
+
+		#heroContact {
+
+			ul {
+
+				overflow:hidden;
+
+				li {
 					
-					&.open strong {
+					float:left;
+					margin-right:10px;
+					padding:15px 20px 15px 45px;
+					text-align:center;
+					font-size:0.875em;
+					border:1px solid rgba(0,0,0,0.5);
+					@include border-radius(2px);
+
+					a {
+						color:#FFF;
+						&:hover {
+							color:#FFC;
+							text-decoration:underline;
+						}
+					}
+
+				}
+
+				$contacts : museum, phone, website;
+				@each $c in $contacts {
+					#hc-#{$c} {
+						background:rgba(255,255,255,0.15) image-url('icons/#{$c}.png', false, false) no-repeat 15px 18px;
+					}
+				}
+
+				#hc-museum {
+
+					&.open {
 						background-color:$open;
 					}
 

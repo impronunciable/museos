@@ -3,7 +3,7 @@
 		
 		width:100%;
 		position:absolute;
-		top:50px;
+		top:40px;
 		left:0;
 		z-index:2;
 
@@ -11,7 +11,7 @@
 			
 			overflow:hidden;
 			padding-bottom:30px;
-			border-bottom:1px solid rgba(255,255,255,0.1);
+			border-bottom:1px solid rgba(255,255,255,0.2);
 
 			#menu,
 			#login {
@@ -37,6 +37,10 @@
 			#menu {
 
 				margin-top:10px;
+
+				strong {
+					display:none;
+				}
 				
 				ul {
 					

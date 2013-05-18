@@ -1,0 +1,29 @@
+	
+	@media screen and (max-width:1000px){
+		
+		.wrap {
+			width:auto;
+			padding:0 30px;
+		}
+
+		#header #menu {
+			
+			ul {
+				display:none;
+			}
+
+		}
+
+	}
+
+	@media screen and (max-width:400px){
+		
+		#hero #heroHolder .wrap #heroInfo {
+			
+			h2 {
+				font-size:1em;
+			}
+
+		}
+
+	}

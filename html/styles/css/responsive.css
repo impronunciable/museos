@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+  /* line 4, ../scss/responsive.scss */
+  .wrap {
+    width: auto;
+    padding: 0 30px; }
+
+  /* line 11, ../scss/responsive.scss */
+  #header #menu ul {
+    display: none; } }
+@media screen and (max-width: 400px) {
+  /* line 23, ../scss/responsive.scss */
+  #hero #heroHolder .wrap #heroInfo h2 {
+    font-size: 1em; } }

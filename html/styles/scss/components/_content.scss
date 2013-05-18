@@ -1,0 +1,53 @@
+
+	#content {
+		
+		float:left;
+		width:60%;
+
+		#description {
+
+			margin-bottom:30px;
+
+			p {
+				line-height:170%;
+			}
+
+		}
+
+		#instagram {
+			
+
+			ul {
+				
+				width:32000px;
+				overflow:hidden;
+
+				li {
+					
+					float:left;
+					margin-right:15px;
+
+					a {
+						
+						display:block;
+						overflow:hidden;
+						@include border-radius(3px);
+						@include single-box-shadow(rgba(0,0,0,0.2), 0, 2px);
+
+						img {
+							
+							display:block;
+							width:80px;
+							height:80px;
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
