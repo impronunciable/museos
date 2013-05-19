@@ -1,5 +1,10 @@
 ;(function(){
 
+	$('#menu strong').click(function(){
+		$(this).next().toggle();
+		$(this).toggleClass('active');
+	});
+
 	$.getJSON('https://search.twitter.com/search.json?q=messi&callback=?', function(data){
 		var html = "";
 		for(var i = 0; i < 6; i++) {

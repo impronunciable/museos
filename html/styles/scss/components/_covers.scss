@@ -1,0 +1,44 @@
+	
+	.cover {
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:1;
+		width:100%;
+		height:100%;
+		background-size:cover !important;
+	}
+
+	#hero:hover {
+
+		#cover-1 {
+			@include animation(fadecover, 3s, 0, infinite, alternate, ease-out);
+			background:image-url('examples/bicentenario.jpg', false, false) no-repeat 0 0;
+		}
+
+		#cover-2 {
+			@include animation(fadecoveralt, 3s, 8s, infinite, alternate, ease-out);
+			background:image-url('examples/malba.jpg', false, false) no-repeat 0 0;
+		}
+
+		#cover-3 {
+			@include animation(fadecoveralt, 3s, 1s, infinite, alternate, ease-out);
+			background:image-url('examples/bellas-artes.jpg', false, false) no-repeat 0 0;
+		}
+
+	}
+
+	@include keyframes(fadecover){
+		from {opacity:1;}
+		to {opacity:0.5;}
+	}
+
+	@include keyframes(fadecoveralt){
+		from {opacity:1;}
+		to {opacity:0;}
+	}
+
+	@include keyframes(fadecoveralter){
+		from {opacity:1;}
+		to {opacity:0;}
+	}

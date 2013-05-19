@@ -54,6 +54,146 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
+/* line 2, ../scss/components/_covers.scss */
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-size: cover !important; }
+
+/* line 14, ../scss/components/_covers.scss */
+#hero:hover #cover-1 {
+  -webkit-animation: fadecover 3s 0 infinite alternate ease-out;
+  -moz-animation: fadecover 3s 0 infinite alternate ease-out;
+  -o-animation: fadecover 3s 0 infinite alternate ease-out;
+  animation: fadecover 3s 0 infinite alternate ease-out;
+  background: url('../../images/examples/bicentenario.jpg') no-repeat 0 0; }
+/* line 19, ../scss/components/_covers.scss */
+#hero:hover #cover-2 {
+  -webkit-animation: fadecoveralt 3s 8s infinite alternate ease-out;
+  -moz-animation: fadecoveralt 3s 8s infinite alternate ease-out;
+  -o-animation: fadecoveralt 3s 8s infinite alternate ease-out;
+  animation: fadecoveralt 3s 8s infinite alternate ease-out;
+  background: url('../../images/examples/malba.jpg') no-repeat 0 0; }
+/* line 24, ../scss/components/_covers.scss */
+#hero:hover #cover-3 {
+  -webkit-animation: fadecoveralt 3s 1s infinite alternate ease-out;
+  -moz-animation: fadecoveralt 3s 1s infinite alternate ease-out;
+  -o-animation: fadecoveralt 3s 1s infinite alternate ease-out;
+  animation: fadecoveralt 3s 1s infinite alternate ease-out;
+  background: url('../../images/examples/bellas-artes.jpg') no-repeat 0 0; }
+
+@-webkit-keyframes fadecover {
+  /* line 32, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 33, ../scss/components/_covers.scss */
+  to {
+    opacity: 0.5; } }
+
+@-moz-keyframes fadecover {
+  /* line 32, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 33, ../scss/components/_covers.scss */
+  to {
+    opacity: 0.5; } }
+
+@-ms-keyframes fadecover {
+  /* line 32, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 33, ../scss/components/_covers.scss */
+  to {
+    opacity: 0.5; } }
+
+@keyframes fadecover {
+  /* line 32, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 33, ../scss/components/_covers.scss */
+  to {
+    opacity: 0.5; } }
+
+@-webkit-keyframes fadecoveralt {
+  /* line 37, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 38, ../scss/components/_covers.scss */
+  to {
+    opacity: 0; } }
+
+@-moz-keyframes fadecoveralt {
+  /* line 37, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 38, ../scss/components/_covers.scss */
+  to {
+    opacity: 0; } }
+
+@-ms-keyframes fadecoveralt {
+  /* line 37, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 38, ../scss/components/_covers.scss */
+  to {
+    opacity: 0; } }
+
+@keyframes fadecoveralt {
+  /* line 37, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 38, ../scss/components/_covers.scss */
+  to {
+    opacity: 0; } }
+
+@-webkit-keyframes fadecoveralter {
+  /* line 42, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 43, ../scss/components/_covers.scss */
+  to {
+    opacity: 0; } }
+
+@-moz-keyframes fadecoveralter {
+  /* line 42, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 43, ../scss/components/_covers.scss */
+  to {
+    opacity: 0; } }
+
+@-ms-keyframes fadecoveralter {
+  /* line 42, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 43, ../scss/components/_covers.scss */
+  to {
+    opacity: 0; } }
+
+@keyframes fadecoveralter {
+  /* line 42, ../scss/components/_covers.scss */
+  from {
+    opacity: 1; }
+
+  /* line 43, ../scss/components/_covers.scss */
+  to {
+    opacity: 0; } }
+
 /* line 2, ../scss/components/_base.scss */
 body {
   font: 100% 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -65,51 +205,102 @@ body {
   margin: 0 auto; }
 
 /* line 14, ../scss/components/_base.scss */
+#logo a, #header .wrap #menu strong, #heroContact li {
+  background: url('../../images/sprite.png') no-repeat 0 0; }
+
+/* line 18, ../scss/components/_base.scss */
 a {
   text-decoration: none; }
 
-/* line 18, ../scss/components/_base.scss */
+/* line 22, ../scss/components/_base.scss */
 strong {
   font-weight: 600; }
 
-/* line 22, ../scss/components/_base.scss */
+/* line 26, ../scss/components/_base.scss */
 em {
   font-style: italic; }
 
-/* line 26, ../scss/components/_base.scss */
-.btn {
-  font-size: 0.938em;
+/* line 30, ../scss/components/_base.scss */
+.title {
+  font-size: 1.333em;
+  font-weight: 300;
+  color: #000;
+  padding-bottom: 5px;
+  margin: 30px 0 20px;
+  border-bottom: 1px solid #DDD; }
+
+/* line 39, ../scss/components/_base.scss */
+.accesible {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+/* line 48, ../scss/components/_base.scss */
+.badge {
+  color: #FFF;
+  font-size: 0.813em;
+  padding: 7px 15px;
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px; }
+
+/* line 56, ../scss/components/_base.scss */
+.open {
+  background-color: #27ae60 !important; }
+
+/* line 60, ../scss/components/_base.scss */
+.closed {
+  background-color: #c0392b !important; }
+
+/* line 64, ../scss/components/_base.scss */
+.btn {
+  cursor: pointer;
+  font-size: 0.875em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
   padding: 7px 20px;
   color: #FFF;
-  background: #000; }
+  background: #ffdc3a;
+  border: 0;
+  color: #000; }
+  /* line 75, ../scss/components/_base.scss */
+  .btn:hover {
+    color: #FFF;
+    background: #000; }
 
-/* line 34, ../scss/components/_base.scss */
+/* line 82, ../scss/components/_base.scss */
+.btn-big {
+  font-size: 1.125em;
+  padding: 10px 30px; }
+
+/* line 87, ../scss/components/_base.scss */
 .btn-tw {
   background: #2e81bc; }
 
-/* line 38, ../scss/components/_base.scss */
+/* line 91, ../scss/components/_base.scss */
 #central {
   overflow: hidden;
   padding: 30px 0 60px; }
-  /* line 43, ../scss/components/_base.scss */
-  #central h3 {
-    font-size: 1.333em;
-    font-weight: 300;
-    color: #000;
-    padding-bottom: 5px;
-    margin: 30px 0 20px;
-    border-bottom: 1px solid #DDD; }
 
 /* line 2, ../scss/components/_header.scss */
 #header {
@@ -117,69 +308,87 @@ em {
   position: absolute;
   top: 40px;
   left: 0;
-  z-index: 2; }
+  z-index: 3; }
   /* line 10, ../scss/components/_header.scss */
   #header .wrap {
-    overflow: hidden;
     padding-bottom: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+    /* line 20, ../scss/components/_mixins.scss */
+    #header .wrap:before, #header .wrap:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden; }
+    /* line 26, ../scss/components/_mixins.scss */
+    #header .wrap:after {
+      clear: both; }
     /* line 17, ../scss/components/_header.scss */
     #header .wrap #menu,
     #header .wrap #login {
       float: right; }
     /* line 21, ../scss/components/_header.scss */
     #header .wrap #logo {
-      float: left;
-      margin-right: 100px; }
-      /* line 26, ../scss/components/_header.scss */
+      float: left; }
+      /* line 25, ../scss/components/_header.scss */
       #header .wrap #logo a {
         display: block;
         font-size: 0;
         text-indent: -9999em;
         width: 260px;
-        height: 45px;
-        background: url('../../images/logo.png') no-repeat 0 0; }
-    /* line 37, ../scss/components/_header.scss */
+        height: 46px; }
+    /* line 35, ../scss/components/_header.scss */
     #header .wrap #menu {
       margin-top: 10px; }
-      /* line 41, ../scss/components/_header.scss */
+      /* line 39, ../scss/components/_header.scss */
       #header .wrap #menu strong {
-        display: none; }
-      /* line 47, ../scss/components/_header.scss */
+        display: none;
+        cursor: pointer;
+        padding-left: 30px;
+        margin-top: -5px;
+        color: #FFF;
+        background-position: 0 -46px; }
+      /* line 50, ../scss/components/_header.scss */
       #header .wrap #menu ul li {
         float: left;
         font-size: 0.75em;
         margin-left: 30px;
         text-transform: uppercase;
         letter-spacing: 0.2em; }
-        /* line 55, ../scss/components/_header.scss */
+        /* line 58, ../scss/components/_header.scss */
         #header .wrap #menu ul li a {
           color: #FFF; }
-      /* line 61, ../scss/components/_header.scss */
+      /* line 64, ../scss/components/_header.scss */
+      #header .wrap #menu ul .tw-connect {
+        display: none; }
+      /* line 68, ../scss/components/_header.scss */
       #header .wrap #menu ul .current a {
         color: #FFC; }
-    /* line 69, ../scss/components/_header.scss */
+    /* line 76, ../scss/components/_header.scss */
     #header .wrap #login {
       margin-left: 30px; }
+      /* line 80, ../scss/components/_header.scss */
+      #header .wrap #login .btn {
+        color: #FFF; }
 
 /* line 2, ../scss/components/_hero.scss */
 #hero {
   position: relative;
   overflow: hidden;
-  background-color: #000;
   background-size: cover;
   color: #FFF; }
-  /* line 10, ../scss/components/_hero.scss */
+  /* line 9, ../scss/components/_hero.scss */
   #hero #heroHolder {
     background: rgba(0, 0, 0, 0.65);
-    padding-bottom: 70px; }
-    /* line 15, ../scss/components/_hero.scss */
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 2; }
+    /* line 16, ../scss/components/_hero.scss */
     #hero #heroHolder .wrap {
       overflow: hidden; }
-      /* line 19, ../scss/components/_hero.scss */
+      /* line 20, ../scss/components/_hero.scss */
       #hero #heroHolder .wrap #heroInfo {
-        padding: 150px 0 60px; }
-        /* line 23, ../scss/components/_hero.scss */
+        padding: 140px 0 60px; }
+        /* line 24, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo #rating {
           display: block;
           font-size: 0;
@@ -189,45 +398,77 @@ em {
           margin-bottom: 30px;
           background-image: url('../../images/icons/rating.png');
           background-repeat: no-repeat; }
-          /* line 34, ../scss/components/_hero.scss */
+          /* line 35, ../scss/components/_hero.scss */
           #hero #heroHolder .wrap #heroInfo #rating.stars-1 {
             background-position: 0 -20px; }
-          /* line 34, ../scss/components/_hero.scss */
+          /* line 35, ../scss/components/_hero.scss */
           #hero #heroHolder .wrap #heroInfo #rating.stars-2 {
             background-position: 0 -40px; }
-          /* line 34, ../scss/components/_hero.scss */
+          /* line 35, ../scss/components/_hero.scss */
           #hero #heroHolder .wrap #heroInfo #rating.stars-3 {
             background-position: 0 -60px; }
-          /* line 34, ../scss/components/_hero.scss */
+          /* line 35, ../scss/components/_hero.scss */
           #hero #heroHolder .wrap #heroInfo #rating.stars-4 {
             background-position: 0 -80px; }
-          /* line 34, ../scss/components/_hero.scss */
+          /* line 35, ../scss/components/_hero.scss */
           #hero #heroHolder .wrap #heroInfo #rating.stars-5 {
             background-position: 0 -100px; }
-        /* line 41, ../scss/components/_hero.scss */
+        /* line 42, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo h2, #hero #heroHolder .wrap #heroInfo p strong {
-          font-family: 'Museo', Georgia, Times, serif;
+          font-family: Georgia, Times, serif;
           font-weight: 500; }
-        /* line 45, ../scss/components/_hero.scss */
+        /* line 46, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo h2 {
           font-size: 3.5em;
           line-height: 120%;
           padding-bottom: 30px; }
-        /* line 53, ../scss/components/_hero.scss */
+        /* line 54, ../scss/components/_hero.scss */
+        #hero #heroHolder .wrap #heroInfo .intro {
+          font-size: 4em;
+          text-align: center;
+          padding: 30px 0 0; }
+        /* line 60, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo p {
           color: rgba(255, 255, 255, 0.85);
           font-size: 1.25em;
           font-weight: 300;
           line-height: 160%;
           padding-bottom: 12px; }
-          /* line 61, ../scss/components/_hero.scss */
+          /* line 68, ../scss/components/_hero.scss */
           #hero #heroHolder .wrap #heroInfo p strong {
             font-size: 1.25em;
             font-weight: 300; }
-  /* line 76, ../scss/components/_hero.scss */
+  /* line 81, ../scss/components/_hero.scss */
+  #hero #heroSearch {
+    padding-bottom: 20px;
+    position: relative; }
+    /* line 86, ../scss/components/_hero.scss */
+    #hero #heroSearch input {
+      width: 96%;
+      font-size: 1.333em;
+      color: #666;
+      padding: 15px 2%;
+      border: 0;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+      border-radius: 3px; }
+      /* line 95, ../scss/components/_hero.scss */
+      #hero #heroSearch input:focus {
+        color: #000;
+        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.6); }
+    /* line 102, ../scss/components/_hero.scss */
+    #hero #heroSearch .btn {
+      position: absolute;
+      top: 6px;
+      right: 8px; }
+  /* line 112, ../scss/components/_hero.scss */
   #hero #heroContact ul {
     overflow: hidden; }
-    /* line 80, ../scss/components/_hero.scss */
+    /* line 116, ../scss/components/_hero.scss */
     #hero #heroContact ul li {
       float: left;
       margin-right: 10px;
@@ -235,30 +476,96 @@ em {
       text-align: center;
       font-size: 0.875em;
       border: 1px solid rgba(0, 0, 0, 0.5);
+      background-color: rgba(255, 255, 255, 0.15);
       -webkit-border-radius: 2px;
       -moz-border-radius: 2px;
       -ms-border-radius: 2px;
       -o-border-radius: 2px;
       border-radius: 2px; }
-      /* line 90, ../scss/components/_hero.scss */
+      /* line 127, ../scss/components/_hero.scss */
       #hero #heroContact ul li a {
         color: #FFF; }
-        /* line 92, ../scss/components/_hero.scss */
+        /* line 129, ../scss/components/_hero.scss */
         #hero #heroContact ul li a:hover {
           color: #FFC;
           text-decoration: underline; }
-    /* line 102, ../scss/components/_hero.scss */
+    /* line 139, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-museum {
-      background: rgba(255, 255, 255, 0.15) url('../../images/icons/museum.png') no-repeat 15px 18px; }
-    /* line 102, ../scss/components/_hero.scss */
+      background-position: -320px -0px; }
+    /* line 139, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-phone {
-      background: rgba(255, 255, 255, 0.15) url('../../images/icons/phone.png') no-repeat 15px 18px; }
-    /* line 102, ../scss/components/_hero.scss */
+      background-position: -320px -60px; }
+    /* line 139, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-website {
-      background: rgba(255, 255, 255, 0.15) url('../../images/icons/website.png') no-repeat 15px 18px; }
-    /* line 109, ../scss/components/_hero.scss */
-    #hero #heroContact ul #hc-museum.open {
-      background-color: #27ae60; }
+      background-position: -320px -122px; }
+
+/* line 2, ../scss/components/_list.scss */
+.museumList {
+  padding: 0 10px 40px; }
+  /* line 6, ../scss/components/_list.scss */
+  .museumList .title {
+    margin: 60px 15px 30px;
+    clear: both; }
+  /* line 11, ../scss/components/_list.scss */
+  .museumList ul {
+    overflow: hidden; }
+    /* line 15, ../scss/components/_list.scss */
+    .museumList ul .museum {
+      float: left;
+      width: 300px;
+      margin: 0 15px 30px;
+      position: relative; }
+      /* line 22, ../scss/components/_list.scss */
+      .museumList ul .museum .mPic {
+        position: relative; }
+        /* line 26, ../scss/components/_list.scss */
+        .museumList ul .museum .mPic a {
+          display: block; }
+          /* line 30, ../scss/components/_list.scss */
+          .museumList ul .museum .mPic a img {
+            display: block;
+            width: 100%;
+            height: auto; }
+          /* line 36, ../scss/components/_list.scss */
+          .museumList ul .museum .mPic a span {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            -webkit-box-shadow: inset 0 0 7px 2px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: inset 0 0 7px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0 0 7px 2px rgba(0, 0, 0, 0.2); }
+          /* line 47, ../scss/components/_list.scss */
+          .museumList ul .museum .mPic a:hover span {
+            display: block; }
+      /* line 57, ../scss/components/_list.scss */
+      .museumList ul .museum .mInfo h3 {
+        padding: 20px 0 10px;
+        text-overflow: ellipsis; }
+        /* line 62, ../scss/components/_list.scss */
+        .museumList ul .museum .mInfo h3 a {
+          color: #000; }
+          /* line 64, ../scss/components/_list.scss */
+          .museumList ul .museum .mInfo h3 a:hover {
+            background: #fff1b0; }
+      /* line 71, ../scss/components/_list.scss */
+      .museumList ul .museum .mInfo p {
+        font-size: 0.875em;
+        color: #666;
+        padding-right: 30px; }
+      /* line 77, ../scss/components/_list.scss */
+      .museumList ul .museum .mInfo .badge {
+        position: absolute;
+        top: 10px;
+        left: 10px; }
+
+/* line 91, ../scss/components/_list.scss */
+#loadMore {
+  text-align: center;
+  padding-top: 30px; }
 
 /* line 2, ../scss/components/_content.scss */
 #content {
@@ -316,10 +623,10 @@ em {
     line-height: 160%;
     color: #666;
     padding-top: 20px; }
-  /* line 25, ../scss/components/_sidebar.scss */
+  /* line 26, ../scss/components/_sidebar.scss */
   #sidebar #twitter li {
     overflow: hidden; }
-    /* line 29, ../scss/components/_sidebar.scss */
+    /* line 30, ../scss/components/_sidebar.scss */
     #sidebar #twitter li .twPic {
       float: left;
       width: 40px;
@@ -329,19 +636,19 @@ em {
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
       border-radius: 3px; }
-      /* line 36, ../scss/components/_sidebar.scss */
+      /* line 37, ../scss/components/_sidebar.scss */
       #sidebar #twitter li .twPic img {
         display: block;
         width: 100%;
         height: 100%; }
-    /* line 44, ../scss/components/_sidebar.scss */
+    /* line 45, ../scss/components/_sidebar.scss */
     #sidebar #twitter li .twText {
       float: right;
       width: 80%;
       font-size: 0.813em;
       margin-bottom: 10px;
       line-height: 150%; }
-      /* line 52, ../scss/components/_sidebar.scss */
+      /* line 53, ../scss/components/_sidebar.scss */
       #sidebar #twitter li .twText em {
         font-color: #999; }
 

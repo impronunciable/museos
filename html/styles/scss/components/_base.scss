@@ -11,6 +11,10 @@
 		margin:0 auto;
 	}
 
+	#logo a, #header .wrap #menu strong, #heroContact li {
+		background:image-url('sprite.png', false, false) no-repeat 0 0;
+	}
+
 	a {
 		text-decoration:none;
 	}
@@ -23,14 +27,63 @@
 		font-style:italic;
 	}
 
-	.btn {
-		font-size:0.938em;
+	.title {
+		font-size:1.333em;
+		font-weight:300;
+		color:#000;
+		padding-bottom:5px;
+		margin:30px 0 20px;
+		border-bottom:1px solid #DDD;
+	}
+
+	.accesible {
+		position:absolute;
+		top:0;
+		left:-9999px;
+		width:1px;
+		height:1px;
+		overflow:hidden;
+	}
+
+	.badge {
+		color:#FFF;
+		font-size:0.813em;
+		padding:7px 15px;
 		@include inline-block;
-		@include border-radius(20px);
+		@include border-radius(2px);
+	}
+
+	.open {
+		background-color:$open !important;
+	}
+
+	.closed {
+		background-color:$closed !important;
+	}
+
+	.btn {
+		cursor:pointer;
+		font-size:0.875em;
+		@include inline-block;
+		@include border-radius(3px);
 		padding:7px 20px;
 		color:#FFF;
-		background:#000;
+		background:$gobcolor;
+		border:0;
+		color:#000;
+
+		&:hover {
+			color:#FFF;
+			background:#000;
+		}
+		
 	}
+
+	.btn-big {
+		font-size:1.125em;
+		padding:10px 30px;
+	}
+
 	.btn-tw {
 		background:$twitter;
 	}
@@ -39,14 +92,5 @@
 
 		overflow:hidden;
 		padding:30px 0 60px;
-
-		h3 {
-			font-size:1.333em;
-			font-weight:300;
-			color:#000;
-			padding-bottom:5px;
-			margin:30px 0 20px;
-			border-bottom:1px solid #DDD;
-		}
 
 	}

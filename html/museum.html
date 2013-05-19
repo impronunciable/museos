@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Museos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="styles/css/museums.css" />
+	<link rel="stylesheet" type="text/css" href="styles/css/responsive.css" />
+	<link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+
+	<header id="header">
+		<div class="wrap">
+			<div id="logo">
+				<h1><a href="#">Buenos Aires Ciudad</a></h1>
+			</div>
+			<div id="login">
+				<a href="#" class="btn btn-tw">Ingresá con Twitter</a>
+			</div>
+			<nav id="menu">
+				<strong>Menu</strong>
+				<ul>
+					<li class="current"><a href="#">Museos (34)</a></li>
+					<li><a href="#">Contacto</a></li>
+					<li class="tw-connect"><a href="#">Ingresá con Twitter</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="hero" style="background-image:url(images/examples/malba.jpg);">
+		<div id="heroHolder">
+			<div class="wrap">
+				<div id="heroInfo">
+					<strong id="rating" class="stars-4">Rating: 4</strong>	
+					<h2>Museo de Arte Latinoamericano de Buenos Aires (MALBA)</h2>
+					<p><strong>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</strong></p>
+				</div>
+			</div>
+			<div id="heroContact">
+				<ul class="wrap">
+					<li id="hc-museum" class="badge open">Ahora está abierto</li>			
+					<li id="hc-phone">4523-1231</li>
+					<li id="hc-website"><a href="#">www.museocultural.com.ar</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="central" class="wrap">
+		<div id="content">
+			<div id="description">
+				<h3 class="title">Horario y Precio</h3>
+				<p>Martes a viernes: 11 a 19 hs.  Sábados, domingos y feriados: 11 a 20 hs.  Lunes cerrado (excepto feriados).</p>
+				<p><span>Costo de entrada: $5</span></p>
+				<h3 class="title">Descripción</h3>
+				<p>En una usina cultural que amalgama a los clásicos con los nuevos talentos de humor gráfico, la historieta y la animación, con muestras permanentes y transitorias más actividades y programas educativos, la ciudad presenta en la Costanera Sur un nodo creativo que desborda los cuadritos y transforma la realidad.</p>
+			</div>
+			<div id="instagram">
+				<h3 class="title">Fotos recientes de Instagram</h3>
+				<ul></ul>
+			</div>
+			<div id="comments">
+				<h3 class="title">Comentarios</h3>
+				<div id="disqus_thread"></div>
+			</div>
+		</div>
+		<aside id="sidebar">
+			<div id="map">
+				<h3 class="title">Ubicación</h3>
+				<div id="gMap"></div>
+				<p><strong>Vías de transporte: </strong> Líneas de Colectivos: 4, 9, 10, 17, 20, 22, 24, 28, 29, 33, 39, 45, 46, 53, 61, 62, 64, 65, 70, 74, 86, 93, 126, 130, 143, 152, 159 y 186.  Línea de subterráneo: C - Estación San Juan.</p>
+			</div>
+			<div id="twitter">
+				<h3 class="title">Twitter</h3>
+				<ul></ul>
+			</div>
+		</aside>
+	</section>
+
+	<footer id="footer">
+		<p class="wrap">Museos de Buenos Aires, creado el 18 de Mayo de 2013 en #BAHackathon</p>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/museos.js"></script>
+    <script type="text/javascript">
+        var disqus_shortname = 'museosba';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+</body>
+</html>

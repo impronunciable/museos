@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
 	<meta charset="UTF-8">
 	<title>Museos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="styles/css/museums.css" />
 	<link rel="stylesheet" type="text/css" href="styles/css/responsive.css" />
-	<script type="text/javascript" src="//use.typekit.net/alz0ips.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="shortcut icon" href="favicon.ico" />
 </head>
-<body id="homePage">
+<body>
 
 	<header id="header">
 		<div class="wrap">
@@ -18,67 +16,139 @@
 				<h1><a href="#">Buenos Aires Ciudad</a></h1>
 			</div>
 			<div id="login">
-				<a href="#" class="btn btn-tw">Ingresar con Twitter</a>
+				<a href="#" class="btn btn-tw tw-connect">Ingresá con Twitter</a>
 			</div>
 			<nav id="menu">
 				<strong>Menu</strong>
 				<ul>
-					<li><a href="#">Inicio</a></li>
 					<li class="current"><a href="#">Museos (34)</a></li>
 					<li><a href="#">Contacto</a></li>
+					<li class="tw-connect"><a href="#">Ingresá con Twitter</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
-	<section id="hero" style="background-image:url(images/museum.jpg);">
+	<section id="hero" style="background-image:url(images/examples/malba.jpg);">
 		<div id="heroHolder">
 			<div class="wrap">
 				<div id="heroInfo">
-					<strong id="rating" class="stars-4">Rating: 4</strong>	
-					<h2>Museo de Arte Latinoamericano de Buenos Aires (MALBA)</h2>
-					<p><strong>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</strong></p>
+					<h2 class="intro">Museos de Buenos Aires</h2>
 				</div>
 			</div>
-			<div id="heroContact">
-				<ul class="wrap">
-					<li id="hc-museum" class="open">Ahora está abierto</li>			
-					<li id="hc-phone">4523-1231</li>
-					<li id="hc-website"><a href="#">www.museocultural.com.ar</a></li>
-				</ul>
+			<div id="heroSearch" class="wrap">
+				<form action="" method="get">
+					<p>
+						<label for="s" class="accesible">Buscar</label>
+						<input type="text" name="s" id="s" placeholder="Buscá un museo&hellip;">
+						<button type="submit" class="btn btn-big">Buscar</button>
+					</p>
+				</form>
 			</div>
 		</div>
 	</section>
 
-	<section id="central" class="wrap">
-		<div id="content">
-			<div id="description">
-				<h3>Horario y Precio</h3>
-				<p>Martes a viernes: 11 a 19 hs.  Sábados, domingos y feriados: 11 a 20 hs.  Lunes cerrado (excepto feriados).</p>
-				<p><span>Costo de entrada: $5</span></p>
-				<h3>Descripción</h3>
-				<p>En una usina cultural que amalgama a los clásicos con los nuevos talentos de humor gráfico, la historieta y la animación, con muestras permanentes y transitorias más actividades y programas educativos, la ciudad presenta en la Costanera Sur un nodo creativo que desborda los cuadritos y transforma la realidad.</p>
-			</div>
-			<div id="instagram">
-				<h3>Fotos recientes de Instagram</h3>
-				<ul></ul>
-			</div>
-			<div id="comments">
-				<h3>Comentarios</h3>
-				<div id="disqus_thread"></div>
-			</div>
+	<section class="museumList" id="featuredList">
+		<div class="wrap">
+			<h3 class="title">Museos más populares</h3>
+			<ul>
+				<li class="museum">
+					<div class="mPic">
+						<a href="#">
+							<img src="images/examples/malba.jpg" alt="">
+							<span></span>
+						</a>
+					</div>
+					<div class="mInfo">
+						<h3><a href="#">Museo de Arte Latinoamericano de Buenos Aires (MALBA)</a></h3>
+						<p><em>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</em></p>
+						<span class="badge open">Abierto</span>
+					</div>
+				</li>
+				<li class="museum">
+					<div class="mPic">
+						<a href="#">
+							<img src="images/examples/malba.jpg" alt="">
+							<span></span>
+						</a>
+					</div>
+					<div class="mInfo">
+						<h3><a href="#">Museo de Arte Latinoamericano de Buenos Aires (MALBA)</a></h3>
+						<p><em>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</em></p>
+						<span class="badge open">Abierto</span>
+					</div>
+				</li>
+				<li class="museum">
+					<div class="mPic">
+						<a href="#">
+							<img src="images/examples/malba.jpg" alt="">
+							<span></span>
+						</a>
+					</div>
+					<div class="mInfo">
+						<h3><a href="#">Museo de Arte Latinoamericano de Buenos Aires (MALBA)</a></h3>
+						<p><em>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</em></p>
+						<span class="badge closed">Cerrado</span>
+					</div>
+				</li>
+				<li class="museum">
+					<div class="mPic">
+						<a href="#">
+							<img src="images/examples/malba.jpg" alt="">
+							<span></span>
+						</a>
+					</div>
+					<div class="mInfo">
+						<h3><a href="#">Museo de Arte Latinoamericano de Buenos Aires (MALBA)</a></h3>
+						<p><em>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</em></p>
+						<span class="badge open">Abierto</span>
+					</div>
+				</li>
+				<li class="museum">
+					<div class="mPic">
+						<a href="#">
+							<img src="images/examples/malba.jpg" alt="">
+							<span></span>
+						</a>
+					</div>
+					<div class="mInfo">
+						<h3><a href="#">Museo de Arte Latinoamericano de Buenos Aires (MALBA)</a></h3>
+						<p><em>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</em></p>
+						<span class="badge open">Abierto</span>
+					</div>
+				</li>
+				<li class="museum">
+					<div class="mPic">
+						<a href="#">
+							<img src="images/examples/malba.jpg" alt="">
+							<span></span>
+						</a>
+					</div>
+					<div class="mInfo">
+						<h3><a href="#">Museo de Arte Latinoamericano de Buenos Aires (MALBA)</a></h3>
+						<p><em>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</em></p>
+						<span class="badge open">Abierto</span>
+					</div>
+				</li>
+			</ul>
+			<h3 class="title">Todos los museos</h3>
+			<ul>
+				<li class="museum">
+					<div class="mPic">
+						<a href="#">
+							<img src="images/examples/malba.jpg" alt="">
+							<span></span>
+						</a>
+					</div>
+					<div class="mInfo">
+						<h3><a href="#">Museo de Arte Latinoamericano de Buenos Aires (MALBA)</a></h3>
+						<p><em>Av Pres. Figueroa Alcorta 3415, Buenos Aires, Argentina</em></p>
+						<span class="badge open">Abierto</span>
+					</div>
+				</li>
+			</ul>
+			<p id="loadMore"><a href="#" class="btn">Mostrar más museos</a></p>
 		</div>
-		<aside id="sidebar">
-			<div id="map">
-				<h3>Ubicación</h3>
-				<div id="gMap"></div>
-				<p><strong>Vías de transporte: </strong> Líneas de Colectivos: 4, 9, 10, 17, 20, 22, 24, 28, 29, 33, 39, 45, 46, 53, 61, 62, 64, 65, 70, 74, 86, 93, 126, 130, 143, 152, 159 y 186.  Línea de subterráneo: C - Estación San Juan.</p>
-			</div>
-			<div id="twitter">
-				<h3>Twitter</h3>
-				<ul></ul>
-			</div>
-		</aside>
 	</section>
 
 	<footer id="footer">

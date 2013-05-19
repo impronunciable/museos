@@ -5,11 +5,11 @@
 		position:absolute;
 		top:40px;
 		left:0;
-		z-index:2;
+		z-index:3;
 
 		.wrap {
 			
-			overflow:hidden;
+			@include clear;
 			padding-bottom:30px;
 			border-bottom:1px solid rgba(255,255,255,0.2);
 
@@ -21,14 +21,12 @@
 			#logo {
 				
 				float:left;
-				margin-right:100px;
 				
 				a {
 					
 					@include hidetext;
 					width:260px;
-					height:45px;
-					background:image-url('logo.png', false, false) no-repeat 0 0;
+					height:46px;
 
 				}
 
@@ -40,6 +38,11 @@
 
 				strong {
 					display:none;
+					cursor:pointer;
+					padding-left:30px;
+					margin-top:-5px;
+					color:#FFF;
+					background-position:0 -46px;
 				}
 				
 				ul {
@@ -58,6 +61,10 @@
 
 					}
 
+					.tw-connect {
+						display:none;
+					}
+
 					.current a {
 						color:#FFC;
 					}
@@ -69,6 +76,10 @@
 			#login {
 				
 				margin-left:30px;
+
+				.btn {
+					color:#FFF;
+				}
 
 			}
 
