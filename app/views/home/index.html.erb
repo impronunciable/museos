@@ -1,6 +1,55 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+	
+	<section id="hero" style="background-image:url(<%= asset_path "examples/malba.jpg" %>);">
+		<div id="heroHolder">
+			<div class="wrap">
+				<div id="heroInfo">
+					<h2 class="intro">Museos de Buenos Aires</h2>
+				</div>
+			</div>
+			<div id="heroSearch" class="wrap">
+				<form action="" method="get">
+					<p>
+						<label for="s" class="accesible">Buscar</label>
+						<input type="text" name="s" id="s" placeholder="Buscá un museo&hellip;">
+						<button type="submit" class="btn btn-big">Buscar</button>
+					</p>
+				</form>
+			</div>
+		</div>
+	</section>
 
-<% @museos.each do |museo| %>
-  <%= museo.nombre %>
-<% end %>
+	<section class="museumList" id="featuredList">
+		<div class="wrap">
+			<h3 class="title">Museos más populares</h3>
+			<ul>
+				<% @museos.each do |museo| %>
+				<li class="museum">
+					<div class="mPic">
+						<a href="#">
+							<img src="<%= museo.url %>" alt="">
+							<span></span>
+							<div class="rating rating-4">
+								<ol>
+									<li class="star star-1"></li>
+									<li class="star star-2"></li>
+									<li class="star star-3"></li>
+									<li class="star star-4"></li>
+									<li class="star star-5"></li>
+								</ol>
+							</div>
+						</a>
+					</div>
+					<div class="mInfo">
+						<h3><a href="#"><%= museo.nombre %></a></h3>
+						<p><em><%= museo.direccion %></em></p>
+						<span class="badge open">Abierto</span>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+			<h3 class="title">Todos los museos</h3>
+			<ul>
+			</ul>
+			<p id="loadMore"><a href="#" class="btn">Mostrar más museos</a></p>
+		</div>
+	</section>
