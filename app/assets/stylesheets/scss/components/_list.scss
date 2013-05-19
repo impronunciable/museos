@@ -17,11 +17,14 @@
 				float:left;
 				width:300px;
 				margin:0 15px 30px;
+				min-height:260px;
 				position:relative;
 
 				.mPic {
 
 					position:relative;
+					height:150px;
+					overflow:hidden;
 
 					a {
 
