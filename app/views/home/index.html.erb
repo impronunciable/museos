@@ -25,8 +25,8 @@
 				<% @museos.each do |museo| %>
 				<li class="museum">
 					<div class="mPic">
-						<a href="#">
-							<img src="<%= museo.url %>" alt="">
+						<%= link_to(museo) do %>
+ 							<img src="<%= museo.url %>" alt="">
 							<span></span>
 							<div class="rating rating-4">
 								<ol>
@@ -37,12 +37,16 @@
 									<li class="star star-5"></li>
 								</ol>
 							</div>
-						</a>
+						<% end %>
 					</div>
 					<div class="mInfo">
-						<h3><a href="#"><%= museo.nombre %></a></h3>
+						<h3><%= link_to museo.nombre, museo %></h3>
 						<p><em><%= museo.direccion %></em></p>
+						<% if museo.id.even? %>
 						<span class="badge open">Abierto</span>
+						<% else %>
+						<span class="badge closed">Cerrado</span>
+						<% end %>
 					</div>
 				</li>
 				<% end %>

@@ -1,5 +1,65 @@
-<h1>Museo#show</h1>
-<p>Find me in app/views/museo/show.html.erb</p>
 
-<%= @museo.nombre %>
+	<section id="hero" style="background-image:url(images/examples/malba.jpg);">
+		<div id="heroHolder">
+			<div class="wrap">
+				<div id="heroInfo">
+					<div class="rating rating-4">
+						<ol>
+							<li class="star star-1"></li>
+							<li class="star star-2"></li>
+							<li class="star star-3"></li>
+							<li class="star star-4"></li>
+							<li class="star star-5"></li>
+						</ol>
+					</div>
+					<h2><%= @museo.nombre %></h2>
+					<p><strong><%= @museo.direccion %></strong></p>
+				</div>
+			</div>
+			<div id="heroContact">
+				<ul class="wrap">
+					<% if @museo.id.even? %>
+					<li id="hc-museum" class="badge open">Ahora está abierto</li>
+					<% else %>
+					<li id="hc-museum" class="badge closed">Ahora está cerrado</li>
+					<% end %>
+					<li id="hc-phone"><%= @museo.telefonos %></li>
+					<% if @museo.url.present? %>
+					<li id="hc-website"><a href="#"><%= @museo.url %></a></li>
+					<% end %>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="central" class="wrap">
+		<div id="content">
+			<div id="description">
+				<h3 class="title">Horario y Precio</h3>
+				<p><%= @museo.horarios %></p>
+				<p><span>Costo de entrada: <%= @museo.precio %></span></p>
+				<h3 class="title">Descripción</h3>
+				<p><%= @museo.descripcion %></p>
+			</div>
+			<div id="instagram">
+				<h3 class="title">Fotos recientes de Instagram</h3>
+				<ul></ul>
+			</div>
+			<div id="comments">
+				<h3 class="title">Comentarios</h3>
+				<div id="disqus_thread"></div>
+			</div>
+		</div>
+		<aside id="sidebar">
+			<div id="map">
+				<h3 class="title">Ubicación</h3>
+				<div id="gMap"></div>
+				<p><strong>Vías de transporte: </strong> <%= @museo.transporte %></p>
+			</div>
+			<div id="twitter">
+				<h3 class="title">Twitter</h3>
+				<ul></ul>
+			</div>
+		</aside>
+	</section>
 
