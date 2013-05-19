@@ -1,0 +1,53 @@
+
+	
+	$gobcolor: #FFDC3A;
+	$open : #27AE60;
+	$closed : #C0392B;
+	$twitter : #2E81BC;
+
+	$imageurl: '/assets';
+
+	@mixin hidetext {
+		display:block;
+		font-size:0;
+		text-indent:-9999em;
+	}
+
+	@mixin georgia {
+		font-family:Georgia, Times, serif;
+		font-weight:500;
+	}
+
+	@mixin clear(){
+	    &:before, &:after {
+	        content: "\0020";
+	        display: block;
+	        height: 0;
+	        overflow: hidden;
+	    }
+	    &:after {
+	        clear: both;
+	    }
+	}
+
+	@mixin keyframes($name) {
+		@-webkit-keyframes #{$name} {
+			@content;
+		}
+		@-moz-keyframes #{$name} {
+			@content;
+		}
+		@-ms-keyframes #{$name} {
+			@content;
+		}
+		@keyframes #{$name} {
+			@content;
+		}
+	}
+
+	@mixin animation($name, $duration:3s, $delay:0, $count:infinite, $direction:alternate, $transition:ease-in){
+		-webkit-animation:compact($name $duration $delay $count $direction $transition);
+  		-moz-animation:compact($name $duration $delay $count $direction $transition);
+  		-o-animation:compact($name $duration $delay $count $direction $transition);
+  		animation:compact($name $duration $delay $count $direction $transition);
+	}

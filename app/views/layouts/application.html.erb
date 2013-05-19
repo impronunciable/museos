@@ -1,14 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-  <title>MuseoApp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+	<meta charset="UTF-8">
+	<title>MuseosBA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<%= stylesheet_link_tag "css/museums" %>
+	<%= stylesheet_link_tag "css/responsive" %>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+	<header id="header">
+		<div class="wrap">
+			<div id="logo">
+				<h1><a href="#">Buenos Aires Ciudad</a></h1>
+			</div>
+			<div id="login">
+				<a href="#" class="btn btn-tw tw-connect">Ingresá con Twitter</a>
+			</div>
+			<nav id="menu">
+				<strong>Menu</strong>
+				<ul>
+					<li><a href="#">Museos (34)</a></li>
+					<li><a href="#">Contacto</a></li>
+					<li class="tw-connect"><a href="#">Ingresá con Twitter</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<%= yield %>
+
+	<%= javascript_include_tag "jquery.min.js" %>
+	<%= javascript_include_tag "museos.js" %>
+
+	<footer id="footer">
+		<p class="wrap">Museos de Buenos Aires, creado el 18 de Mayo de 2013 en #BAHackathon</p>
+	</footer>
 
 </body>
 </html>

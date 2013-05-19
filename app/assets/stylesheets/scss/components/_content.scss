@@ -1,0 +1,61 @@
+
+	#content {
+		
+		float:left;
+		width:60%;
+
+		#description {
+
+			margin-bottom:30px;
+
+			p {
+				line-height:170%;
+				padding-bottom:15px;
+			}
+
+			span {
+				color:darken($open, 20);
+			}
+
+		}
+
+		#instagram {
+			
+
+			ul {
+				
+				overflow:hidden;
+
+				li {
+					
+					float:left;
+					margin:0 15px 15px 0;
+
+					a {
+						
+						display:block;
+						overflow:hidden;
+						@include border-radius(3px);
+						@include single-box-shadow(rgba(0,0,0,0.2), 0, 2px);
+
+						img {
+							
+							display:block;
+							width:80px;
+							height:80px;
+
+						}
+
+					}
+
+					&:nth-child(7){
+						clear:left;
+					}
+
+				}
+
+			}
+
+		}
+
+	}

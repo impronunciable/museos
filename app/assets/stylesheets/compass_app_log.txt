@@ -1,0 +1,96 @@
+2013-05-19 15:32:06 overwrite css/museums.css 
+2013-05-19 15:32:06 overwrite css/responsive.css 
+2013-05-19 15:35:29 overwrite css/museums.css 
+2013-05-19 15:35:30 overwrite css/responsive.css 
+2013-05-19 15:38:13 identical css/museums.css 
+2013-05-19 15:38:14 identical css/responsive.css 
+2013-05-19 15:40:28 identical css/museums.css 
+2013-05-19 15:40:28 overwrite css/responsive.css 
+2013-05-19 15:41:34 identical css/museums.css 
+2013-05-19 15:41:34 overwrite css/responsive.css 
+2013-05-19 15:42:17 identical css/museums.css 
+2013-05-19 15:42:17 identical css/responsive.css 
+2013-05-19 15:42:58 identical css/museums.css 
+2013-05-19 15:42:58 identical css/responsive.css 
+2013-05-19 15:43:08     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:43:08 overwrite css/museums.css 
+2013-05-19 15:43:08 identical css/responsive.css 
+2013-05-19 15:43:09     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:43:09 identical css/museums.css 
+2013-05-19 15:43:09 identical css/responsive.css 
+2013-05-19 15:43:19     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:43:19 identical css/museums.css 
+2013-05-19 15:43:20 identical css/responsive.css 
+2013-05-19 15:43:20     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:43:20 identical css/museums.css 
+2013-05-19 15:43:21 identical css/responsive.css 
+2013-05-19 15:43:24     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:43:24 identical css/museums.css 
+2013-05-19 15:43:24 identical css/responsive.css 
+2013-05-19 15:43:25     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:43:25 identical css/museums.css 
+2013-05-19 15:43:25 identical css/responsive.css 
+2013-05-19 15:43:30     error scss/museums.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:30 overwrite css/museums.css 
+2013-05-19 15:43:31     error scss/responsive.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:31 overwrite css/responsive.css 
+2013-05-19 15:43:32     error scss/museums.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:32 identical css/museums.css 
+2013-05-19 15:43:32     error scss/responsive.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:32 identical css/responsive.css 
+2013-05-19 15:43:44     error scss/museums.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:44 identical css/museums.css 
+2013-05-19 15:43:45     error scss/responsive.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:45 identical css/responsive.css 
+2013-05-19 15:43:46     error scss/museums.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:46 identical css/museums.css 
+2013-05-19 15:43:47     error scss/responsive.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:47 identical css/responsive.css 
+2013-05-19 15:43:53     error scss/museums.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:53 identical css/museums.css 
+2013-05-19 15:43:53     error scss/responsive.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:53 identical css/responsive.css 
+2013-05-19 15:43:54     error scss/museums.scss (Line 8 of scss/components/_mixins.scss: Invalid CSS after ".../assets/images/": expected expression (e.g. 1px, bold), was ";")
+2013-05-19 15:43:54 identical css/museums.css 
+2013-05-19 15:43:54 overwrite css/responsive.css 
+2013-05-19 15:44:04     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:44:04 overwrite css/museums.css 
+2013-05-19 15:44:04 identical css/responsive.css 
+2013-05-19 15:44:05     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:44:05 identical css/museums.css 
+2013-05-19 15:44:05 identical css/responsive.css 
+2013-05-19 15:44:27     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:44:27 identical css/museums.css 
+2013-05-19 15:44:27 identical css/responsive.css 
+2013-05-19 15:44:28     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:44:28 identical css/museums.css 
+2013-05-19 15:44:28 identical css/responsive.css 
+2013-05-19 15:44:36     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:44:36 identical css/museums.css 
+2013-05-19 15:44:36 identical css/responsive.css 
+2013-05-19 15:44:37     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:44:37 identical css/museums.css 
+2013-05-19 15:44:37 identical css/responsive.css 
+2013-05-19 15:45:10     error scss/museums.scss (Line 15 of scss/components/_base.scss: Undefined variable: "$imageur".)
+2013-05-19 15:45:10 overwrite css/museums.css 
+2013-05-19 15:45:10 identical css/responsive.css 
+2013-05-19 15:45:14 overwrite css/museums.css 
+2013-05-19 15:45:14 identical css/responsive.css 
+2013-05-19 15:45:35     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:45:35 overwrite css/museums.css 
+2013-05-19 15:45:35 identical css/responsive.css 
+2013-05-19 15:45:36     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:45:36 identical css/museums.css 
+2013-05-19 15:45:36 identical css/responsive.css 
+2013-05-19 15:45:39     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:45:39 identical css/museums.css 
+2013-05-19 15:45:39 identical css/responsive.css 
+2013-05-19 15:45:40     error scss/museums.scss (Line 15 of scss/components/_base.scss: Invalid CSS after "		background:url(": expected ")", was "$imageurl/sprit...")
+2013-05-19 15:45:40 identical css/museums.css 
+2013-05-19 15:45:40 identical css/responsive.css 
+2013-05-19 15:45:54 overwrite css/museums.css 
+2013-05-19 15:45:54 identical css/responsive.css 
+2013-05-19 15:48:30 overwrite css/museums.css 
+2013-05-19 15:48:30 identical css/responsive.css 
+2013-05-19 15:48:56 identical css/museums.css 
+2013-05-19 15:48:57 overwrite css/responsive.css 

@@ -1,0 +1,144 @@
+@import "compass/css3";
+@import "components/_mixins";
+
+	@media screen and (max-width:1100px){
+
+		#header .wrap #menu {
+
+			position:relative;
+			
+			strong {
+				display:block;
+			}
+
+			.active {
+				text-decoration:underline;
+			}
+
+			ul {
+				width:220px;
+				background:rgba(0,0,0,0.6);
+				@include border-radius(3px);
+				position:absolute;
+				top:30px;
+				right:0;
+
+				li {
+					float:none;
+					text-align:right;
+					padding:7px 10px;
+					margin:0;
+				}
+
+			}
+
+		}
+		
+		.wrap {
+			width:auto;
+			padding-left:30px !important;
+			padding-right:30px !important;
+		}
+
+		#hero #heroSearch .btn {
+			top:7px;
+			right:5%;
+		}
+
+		#header #menu ul {
+			display:none;
+		}
+
+		.museumList ul .museum {
+			width:28%;
+		}
+
+	}
+
+	@media screen and (max-width:850px){
+
+		#hero #heroHolder .wrap #heroInfo h2 {
+			font-size:3em !important;
+		}
+
+		#hero #heroContact ul #hc-museum li {
+			margin:0 0 10px 0;
+		}
+
+		#content,
+		#sidebar {
+			float:none;
+			width:auto;
+		}
+
+		#sidebar #twitter li .twText {
+			width:90%;
+		}
+
+		.museumList ul .museum {
+			width:45%;
+		}
+
+	}
+
+	@media screen and (max-width:500px){
+
+		#header {
+			top:20px;
+		}
+
+		#header .wrap #logo {
+			float:none;
+		}
+
+		#header .wrap #menu {
+			float:none;
+			text-align:center;
+			strong {
+				@include inline-block;
+			}
+			ul {
+
+				right:20px;
+
+				li {
+					text-align:center;
+				}
+			}
+		}
+		
+		#hero #heroHolder .wrap #heroInfo h2 {
+			font-size:2em !important;
+		}
+
+		#hero #heroSearch {
+			font-size:0.75em;
+			padding:0;
+			.btn {
+				position:static;
+				margin-top:10px;
+				display:block;
+			}
+		}
+
+		.museumList ul .museum {
+			float:none;
+			width:auto;
+		}
+
+		#login {
+			display:none;
+		}
+
+		#header .wrap #menu ul .tw-connect {
+			display:block;
+		}
+
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+   		#logo a, #header .wrap #menu strong, #heroContact li {
+   			background-image:url(#{$imageurl}/sprite-retina.png);
+   			background-size:350px 154px;
+   		}
+	}
