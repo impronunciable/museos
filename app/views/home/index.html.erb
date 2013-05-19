@@ -27,7 +27,7 @@
 					<p><%= museo.id %></p>
 					<div class="mPic">
 						<%= link_to(museo) do %>
- 							<img src="<%= museo.url %>" alt="">
+							<%= photo_tag museo, :thumb %>
 							<span></span>
 							<div class="rating rating-4">
 								<ol>

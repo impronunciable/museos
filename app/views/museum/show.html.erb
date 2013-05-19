@@ -1,5 +1,5 @@
 
-	<section id="hero" style="background-image:url(images/examples/malba.jpg);">
+	<section id="hero" style="background-image:url(<%= photo_path @museo %>);">
 		<div id="heroHolder">
 			<div class="wrap">
 				<div id="heroInfo">
@@ -23,7 +23,9 @@
 					<% else %>
 					<li id="hc-museum" class="badge closed">Ahora está cerrado</li>
 					<% end %>
+          <% if @museo.telefonos.present? %>
 					<li id="hc-phone"><%= @museo.telefonos %></li>
+          <% end %>
 					<% if @museo.url.present? %>
 					<li id="hc-website"><a href="#"><%= @museo.url %></a></li>
 					<% end %>
