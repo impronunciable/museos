@@ -49,9 +49,13 @@
 			display:none;
 		}
 
+		.museumList ul .museum {
+			width:28%;
+		}
+
 	}
 
-	@media screen and (max-width:800px){
+	@media screen and (max-width:850px){
 
 		#hero #heroHolder .wrap #heroInfo h2 {
 			font-size:3em !important;
@@ -69,6 +73,10 @@
 
 		#sidebar #twitter li .twText {
 			width:90%;
+		}
+
+		.museumList ul .museum {
+			width:45%;
 		}
 
 	}
@@ -89,6 +97,14 @@
 			strong {
 				@include inline-block;
 			}
+			ul {
+
+				right:20px;
+
+				li {
+					text-align:center;
+				}
+			}
 		}
 		
 		#hero #heroHolder .wrap #heroInfo h2 {
@@ -103,6 +119,11 @@
 				margin-top:10px;
 				display:block;
 			}
+		}
+
+		.museumList ul .museum {
+			float:none;
+			width:auto;
 		}
 
 		#login {

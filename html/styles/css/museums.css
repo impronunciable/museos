@@ -205,7 +205,7 @@ body {
   margin: 0 auto; }
 
 /* line 14, ../scss/components/_base.scss */
-#logo a, #header .wrap #menu strong, #heroContact li {
+#logo a, #header .wrap #menu strong, .rating li, #heroContact li {
   background: url('../../images/sprite.png') no-repeat 0 0; }
 
 /* line 18, ../scss/components/_base.scss */
@@ -230,6 +230,42 @@ em {
   border-bottom: 1px solid #DDD; }
 
 /* line 39, ../scss/components/_base.scss */
+.rating {
+  cursor: pointer; }
+  /* line 43, ../scss/components/_base.scss */
+  .rating ol {
+    overflow: hidden; }
+    /* line 47, ../scss/components/_base.scss */
+    .rating ol li {
+      float: left;
+      margin-right: 3px;
+      display: block;
+      font-size: 0;
+      text-indent: -9999em;
+      width: 21px;
+      height: 20px;
+      background-position: -260px 0; }
+    /* line 58, ../scss/components/_base.scss */
+    .rating ol .active {
+      background-position: -260px -20px;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1; }
+
+/* line 76, ../scss/components/_base.scss */
+.rating-4 .star-5,
+.rating-3 .star-5,
+.rating-3 .star-4,
+.rating-2 .star-5,
+.rating-2 .star-4,
+.rating-2 .star-3,
+.rating-1 .star-5,
+.rating-1 .star-4,
+.rating-1 .star-3,
+.rating-1 .star-2 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5; }
+
+/* line 80, ../scss/components/_base.scss */
 .accesible {
   position: absolute;
   top: 0;
@@ -238,7 +274,7 @@ em {
   height: 1px;
   overflow: hidden; }
 
-/* line 48, ../scss/components/_base.scss */
+/* line 89, ../scss/components/_base.scss */
 .badge {
   color: #FFF;
   font-size: 0.813em;
@@ -255,15 +291,15 @@ em {
   -o-border-radius: 2px;
   border-radius: 2px; }
 
-/* line 56, ../scss/components/_base.scss */
+/* line 97, ../scss/components/_base.scss */
 .open {
   background-color: #27ae60 !important; }
 
-/* line 60, ../scss/components/_base.scss */
+/* line 101, ../scss/components/_base.scss */
 .closed {
   background-color: #c0392b !important; }
 
-/* line 64, ../scss/components/_base.scss */
+/* line 105, ../scss/components/_base.scss */
 .btn {
   cursor: pointer;
   font-size: 0.875em;
@@ -283,21 +319,21 @@ em {
   background: #ffdc3a;
   border: 0;
   color: #000; }
-  /* line 75, ../scss/components/_base.scss */
+  /* line 116, ../scss/components/_base.scss */
   .btn:hover {
     color: #FFF;
     background: #000; }
 
-/* line 82, ../scss/components/_base.scss */
+/* line 123, ../scss/components/_base.scss */
 .btn-big {
   font-size: 1.125em;
   padding: 10px 30px; }
 
-/* line 87, ../scss/components/_base.scss */
+/* line 128, ../scss/components/_base.scss */
 .btn-tw {
   background: #2e81bc; }
 
-/* line 91, ../scss/components/_base.scss */
+/* line 132, ../scss/components/_base.scss */
 #central {
   overflow: hidden;
   padding: 30px 0 60px; }
@@ -389,60 +425,38 @@ em {
       #hero #heroHolder .wrap #heroInfo {
         padding: 140px 0 60px; }
         /* line 24, ../scss/components/_hero.scss */
-        #hero #heroHolder .wrap #heroInfo #rating {
-          display: block;
-          font-size: 0;
-          text-indent: -9999em;
-          width: 117px;
-          height: 20px;
-          margin-bottom: 30px;
-          background-image: url('../../images/icons/rating.png');
-          background-repeat: no-repeat; }
-          /* line 35, ../scss/components/_hero.scss */
-          #hero #heroHolder .wrap #heroInfo #rating.stars-1 {
-            background-position: 0 -20px; }
-          /* line 35, ../scss/components/_hero.scss */
-          #hero #heroHolder .wrap #heroInfo #rating.stars-2 {
-            background-position: 0 -40px; }
-          /* line 35, ../scss/components/_hero.scss */
-          #hero #heroHolder .wrap #heroInfo #rating.stars-3 {
-            background-position: 0 -60px; }
-          /* line 35, ../scss/components/_hero.scss */
-          #hero #heroHolder .wrap #heroInfo #rating.stars-4 {
-            background-position: 0 -80px; }
-          /* line 35, ../scss/components/_hero.scss */
-          #hero #heroHolder .wrap #heroInfo #rating.stars-5 {
-            background-position: 0 -100px; }
-        /* line 42, ../scss/components/_hero.scss */
+        #hero #heroHolder .wrap #heroInfo .rating {
+          margin: 10px 0 30px; }
+        /* line 30, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo h2, #hero #heroHolder .wrap #heroInfo p strong {
           font-family: Georgia, Times, serif;
           font-weight: 500; }
-        /* line 46, ../scss/components/_hero.scss */
+        /* line 34, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo h2 {
           font-size: 3.5em;
           line-height: 120%;
           padding-bottom: 30px; }
-        /* line 54, ../scss/components/_hero.scss */
+        /* line 42, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo .intro {
           font-size: 4em;
           text-align: center;
           padding: 30px 0 0; }
-        /* line 60, ../scss/components/_hero.scss */
+        /* line 48, ../scss/components/_hero.scss */
         #hero #heroHolder .wrap #heroInfo p {
           color: rgba(255, 255, 255, 0.85);
           font-size: 1.25em;
           font-weight: 300;
           line-height: 160%;
           padding-bottom: 12px; }
-          /* line 68, ../scss/components/_hero.scss */
+          /* line 56, ../scss/components/_hero.scss */
           #hero #heroHolder .wrap #heroInfo p strong {
             font-size: 1.25em;
             font-weight: 300; }
-  /* line 81, ../scss/components/_hero.scss */
+  /* line 69, ../scss/components/_hero.scss */
   #hero #heroSearch {
     padding-bottom: 20px;
     position: relative; }
-    /* line 86, ../scss/components/_hero.scss */
+    /* line 74, ../scss/components/_hero.scss */
     #hero #heroSearch input {
       width: 96%;
       font-size: 1.333em;
@@ -454,21 +468,21 @@ em {
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
       border-radius: 3px; }
-      /* line 95, ../scss/components/_hero.scss */
+      /* line 83, ../scss/components/_hero.scss */
       #hero #heroSearch input:focus {
         color: #000;
         -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
         -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.6); }
-    /* line 102, ../scss/components/_hero.scss */
+    /* line 90, ../scss/components/_hero.scss */
     #hero #heroSearch .btn {
       position: absolute;
       top: 6px;
       right: 8px; }
-  /* line 112, ../scss/components/_hero.scss */
+  /* line 100, ../scss/components/_hero.scss */
   #hero #heroContact ul {
     overflow: hidden; }
-    /* line 116, ../scss/components/_hero.scss */
+    /* line 104, ../scss/components/_hero.scss */
     #hero #heroContact ul li {
       float: left;
       margin-right: 10px;
@@ -482,20 +496,20 @@ em {
       -ms-border-radius: 2px;
       -o-border-radius: 2px;
       border-radius: 2px; }
-      /* line 127, ../scss/components/_hero.scss */
+      /* line 115, ../scss/components/_hero.scss */
       #hero #heroContact ul li a {
         color: #FFF; }
-        /* line 129, ../scss/components/_hero.scss */
+        /* line 117, ../scss/components/_hero.scss */
         #hero #heroContact ul li a:hover {
           color: #FFC;
           text-decoration: underline; }
-    /* line 139, ../scss/components/_hero.scss */
+    /* line 127, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-museum {
       background-position: -320px -0px; }
-    /* line 139, ../scss/components/_hero.scss */
+    /* line 127, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-phone {
       background-position: -320px -60px; }
-    /* line 139, ../scss/components/_hero.scss */
+    /* line 127, ../scss/components/_hero.scss */
     #hero #heroContact ul #hc-website {
       background-position: -320px -122px; }
 
@@ -527,6 +541,17 @@ em {
             width: 100%;
             height: auto; }
           /* line 36, ../scss/components/_list.scss */
+          .museumList ul .museum .mPic a .rating {
+            position: absolute;
+            z-index: 2;
+            right: 5px;
+            bottom: 10px;
+            -webkit-transform: scale(0.8, 0.8);
+            -moz-transform: scale(0.8, 0.8);
+            -ms-transform: scale(0.8, 0.8);
+            -o-transform: scale(0.8, 0.8);
+            transform: scale(0.8, 0.8); }
+          /* line 44, ../scss/components/_list.scss */
           .museumList ul .museum .mPic a span {
             display: none;
             position: absolute;
@@ -538,31 +563,31 @@ em {
             -webkit-box-shadow: inset 0 0 7px 2px rgba(0, 0, 0, 0.2);
             -moz-box-shadow: inset 0 0 7px 2px rgba(0, 0, 0, 0.2);
             box-shadow: inset 0 0 7px 2px rgba(0, 0, 0, 0.2); }
-          /* line 47, ../scss/components/_list.scss */
+          /* line 55, ../scss/components/_list.scss */
           .museumList ul .museum .mPic a:hover span {
             display: block; }
-      /* line 57, ../scss/components/_list.scss */
+      /* line 65, ../scss/components/_list.scss */
       .museumList ul .museum .mInfo h3 {
         padding: 20px 0 10px;
         text-overflow: ellipsis; }
-        /* line 62, ../scss/components/_list.scss */
+        /* line 70, ../scss/components/_list.scss */
         .museumList ul .museum .mInfo h3 a {
           color: #000; }
-          /* line 64, ../scss/components/_list.scss */
+          /* line 72, ../scss/components/_list.scss */
           .museumList ul .museum .mInfo h3 a:hover {
             background: #fff1b0; }
-      /* line 71, ../scss/components/_list.scss */
+      /* line 79, ../scss/components/_list.scss */
       .museumList ul .museum .mInfo p {
         font-size: 0.875em;
         color: #666;
         padding-right: 30px; }
-      /* line 77, ../scss/components/_list.scss */
+      /* line 85, ../scss/components/_list.scss */
       .museumList ul .museum .mInfo .badge {
         position: absolute;
         top: 10px;
         left: 10px; }
 
-/* line 91, ../scss/components/_list.scss */
+/* line 99, ../scss/components/_list.scss */
 #loadMore {
   text-align: center;
   padding-top: 30px; }

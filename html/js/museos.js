@@ -5,6 +5,14 @@
 		$(this).toggleClass('active');
 	});
 
+	$('.rating li').hover(function(){
+		$(this).addClass('active');
+		$(this).prevAll().addClass('active');
+	}, function(){
+		$(this).removeClass('active');
+		$(this).siblings().removeClass('active');
+	});
+
 	$.getJSON('https://search.twitter.com/search.json?q=messi&callback=?', function(data){
 		var html = "";
 		for(var i = 0; i < 6; i++) {

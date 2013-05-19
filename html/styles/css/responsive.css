@@ -40,39 +40,47 @@
 
   /* line 48, ../scss/responsive.scss */
   #header #menu ul {
-    display: none; } }
-@media screen and (max-width: 800px) {
-  /* line 56, ../scss/responsive.scss */
+    display: none; }
+
+  /* line 52, ../scss/responsive.scss */
+  .museumList ul .museum {
+    width: 28%; } }
+@media screen and (max-width: 850px) {
+  /* line 60, ../scss/responsive.scss */
   #hero #heroHolder .wrap #heroInfo h2 {
     font-size: 3em !important; }
 
-  /* line 60, ../scss/responsive.scss */
+  /* line 64, ../scss/responsive.scss */
   #hero #heroContact ul #hc-museum li {
     margin: 0 0 10px 0; }
 
-  /* line 65, ../scss/responsive.scss */
+  /* line 69, ../scss/responsive.scss */
   #content,
   #sidebar {
     float: none;
     width: auto; }
 
-  /* line 70, ../scss/responsive.scss */
+  /* line 74, ../scss/responsive.scss */
   #sidebar #twitter li .twText {
-    width: 90%; } }
-@media screen and (max-width: 500px) {
+    width: 90%; }
+
   /* line 78, ../scss/responsive.scss */
+  .museumList ul .museum {
+    width: 45%; } }
+@media screen and (max-width: 500px) {
+  /* line 86, ../scss/responsive.scss */
   #header {
     top: 20px; }
 
-  /* line 82, ../scss/responsive.scss */
+  /* line 90, ../scss/responsive.scss */
   #header .wrap #logo {
     float: none; }
 
-  /* line 86, ../scss/responsive.scss */
+  /* line 94, ../scss/responsive.scss */
   #header .wrap #menu {
     float: none;
     text-align: center; }
-    /* line 89, ../scss/responsive.scss */
+    /* line 97, ../scss/responsive.scss */
     #header .wrap #menu strong {
       display: -moz-inline-stack;
       display: inline-block;
@@ -80,30 +88,41 @@
       *vertical-align: auto;
       zoom: 1;
       *display: inline; }
+    /* line 100, ../scss/responsive.scss */
+    #header .wrap #menu ul {
+      right: 20px; }
+      /* line 104, ../scss/responsive.scss */
+      #header .wrap #menu ul li {
+        text-align: center; }
 
-  /* line 94, ../scss/responsive.scss */
+  /* line 110, ../scss/responsive.scss */
   #hero #heroHolder .wrap #heroInfo h2 {
     font-size: 2em !important; }
 
-  /* line 98, ../scss/responsive.scss */
+  /* line 114, ../scss/responsive.scss */
   #hero #heroSearch {
     font-size: 0.75em;
     padding: 0; }
-    /* line 101, ../scss/responsive.scss */
+    /* line 117, ../scss/responsive.scss */
     #hero #heroSearch .btn {
       position: static;
       margin-top: 10px;
       display: block; }
 
-  /* line 108, ../scss/responsive.scss */
+  /* line 124, ../scss/responsive.scss */
+  .museumList ul .museum {
+    float: none;
+    width: auto; }
+
+  /* line 129, ../scss/responsive.scss */
   #login {
     display: none; }
 
-  /* line 112, ../scss/responsive.scss */
+  /* line 133, ../scss/responsive.scss */
   #header .wrap #menu ul .tw-connect {
     display: block; } }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* line 119, ../scss/responsive.scss */
+  /* line 140, ../scss/responsive.scss */
   #logo a, #header .wrap #menu strong, #heroContact li {
     background-image: url('../../images/sprite-retina.png?1368974270');
     background-size: 350px 154px; } }

@@ -33,6 +33,14 @@
 							height:auto;
 						}
 
+						.rating {
+							position:absolute;
+							z-index:2;
+							right:5px;
+							bottom:10px;
+							@include scale(0.8);
+						}
+
 						span {
 							display:none;
 							position:absolute;
